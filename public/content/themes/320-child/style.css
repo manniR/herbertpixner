@@ -1,0 +1,16 @@
+/*
+ Theme Name:   320press
+ Theme URI:    ..
+ Description:  320press Twitter Bootstrap Child Theme
+ Author:       MR
+ Author URI:   http://manfredraggl.com
+ Template:     320press
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  320-child
+*/
+
+@import url("../320press/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */

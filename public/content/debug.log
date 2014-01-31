@@ -1,0 +1,9 @@
+[23-Jan-2014 15:29:31 UTC] PHP Notice:  Undefined index: ID in /Users/macpro/Sites/git-test/public/content/plugins/testplug/index.php on line 190
+[23-Jan-2014 15:29:31 UTC] PHP Notice:  Undefined index: ID in /Users/macpro/Sites/git-test/public/content/plugins/testplug/index.php on line 174
+[23-Jan-2014 15:29:31 UTC] PHP Notice:  Undefined index: ID in /Users/macpro/Sites/git-test/public/content/plugins/testplug/index.php on line 175
+[23-Jan-2014 15:42:49 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 771
+[23-Jan-2014 15:42:49 UTC] PHP Notice:  Trying to get property of non-object in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 304
+[23-Jan-2014 15:42:49 UTC] PHP Notice:  Undefined variable: singular in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 789
+[23-Jan-2014 15:42:52 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 771
+[23-Jan-2014 15:42:52 UTC] PHP Notice:  Trying to get property of non-object in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 304
+[23-Jan-2014 15:42:52 UTC] PHP Notice:  Undefined variable: singular in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 789
