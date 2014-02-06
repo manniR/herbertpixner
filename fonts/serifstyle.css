@@ -1,0 +1,177 @@
+body {
+	color: #7ba4dc;
+	background: url("bodyback.png") #000000;
+	font-family: 'DejaVu Sans','Bitstream Vera Sans','Verdana',sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.everything {
+	background: url("back.png") #333333;
+	margin: 0 auto;
+	padding: 0 1em;
+	max-width: 43em;
+	text-align: left;
+	line-height: 140%;
+	width: auto !important;
+}
+
+div.header {
+	border-bottom: 2pt solid #ff6600;
+	margin-bottom: 1em;
+	line-height: normal;
+}
+
+h1 {
+	font-size: 300%;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.5em 0;
+	float: left;
+}
+
+h2 {
+	font-size:200%;
+	font-weight: bold;
+	margin:	0.5em 0;
+	padding: 0;
+}
+
+.header p {
+	font-size: 75%;
+	text-align: right;
+	padding: 2.5em 0;
+	margin: 0;
+}
+
+a {
+	color: #7ba4dc;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 a:hover {
+	text-decoration: none;
+}
+
+p {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+div.fontsamp {
+	margin: 0em 3em 1.5em 0;
+	border:0;
+	float:left;
+}
+
+div.fontsamp a {
+	border:0;
+	padding:0;
+}
+
+div.fontsamp img {
+	border:0;
+	border-top: 2pt solid #ff6600;
+	border-bottom: 2pt solid #ff6600;
+	padding:0;
+}
+
+.sample {
+	margin: 1em 0;
+}
+
+.sample a {
+	border:0;
+	padding:0;
+}
+
+.sample a img {
+	border:0;
+	padding:0;
+}
+
+#usesfontface {
+	display:none;
+}
+
+.size1, .size2, .size3, .size4 {
+	margin:0;
+}
+
+.size1 {
+	font-size:600%;
+}
+
+.size2 {
+	font-size:425%;
+}
+
+.size3 {
+	font-size:250%;
+}
+
+.size4 {
+	font-size:150%;
+}
+
+#sizer {
+	margin-top:2em;
+}
+
+#tryit {
+	color: #7ba4dc;
+	background: transparent;
+	margin: 1em 0;
+	border: 1pt solid #ff6600;
+	padding: 0.5em;
+}
+
+p.copyright {
+	margin: 1em 0 0 0;
+	padding: 0.2em 0;
+	font-size: 75%;
+	clear:both;
+}
+
+@media print {
+
+	body {
+		color: #000000;
+		background: #ffffff;
+	}
+
+	.everything {
+		background: #ffffff;
+	}
+
+	div.header {
+		border-bottom: 2pt solid #000000;
+	}
+
+	.header a {
+		color: #000000;
+		text-decoration: none;
+	}
+
+	a {
+		color: #000000;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+
+	div.fontsamp img {
+		border-top: 2pt solid #000000;
+		border-bottom: 2pt solid #000000;
+	}
+
+	.tryitdiv {
+		display:none;
+	}
+
+}
