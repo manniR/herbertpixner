@@ -12,6 +12,7 @@
  * @var bool
  */
 
+//echo('dirname( __FILE__ ) ' . dirname( __FILE__ ) . '<br/>');
 
 define('WP_USE_THEMES', true);
 

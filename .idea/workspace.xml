@@ -17,104 +17,117 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="freiestheater.at" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/site/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="37" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="598">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitmodules" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitmodules">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="312">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-settings.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/site/wp-settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9724">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="front-page.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/front-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1300">
-              <folding>
-                <marker date="1391704520000" expanded="true" signature="133:395" placeholder="SELECT * FRO..$wpdb-&gt;posts inner..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-config---.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/site/wp-config---.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="0" selection-start="603" selection-end="3368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2158">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-config-.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/wp-config-.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="3391" selection-end="3606" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="2418">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/conf/wp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="835" selection-end="1062" vertical-scroll-proportion="-0.95555556" vertical-offset="1586" max-vertical-offset="2756">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="50" selection-start="795" selection-end="796" vertical-scroll-proportion="-13.571428" vertical-offset="426" max-vertical-offset="1768">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.64299244">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/content/themes/320press/functions.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="437" column="0" selection-start="15134" selection-end="15309" vertical-scroll-proportion="0.0" vertical-offset="11125" max-vertical-offset="12818">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2262">
+                  <folding>
+                    <marker date="1392049808000" expanded="true" signature="66:2899" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="611:2827" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="774:1832" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="790:1437" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="1512:1599" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="1644:1787" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="2141:2399" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="2167:2386" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="2473:2793" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="2491:2570" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="2610:2740" placeholder="..." />
+                    <marker date="1392049808000" expanded="true" signature="2758:2777" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/page.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="45" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="2132">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="81" column="9" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.6519685" vertical-offset="1562" max-vertical-offset="2210">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="archive.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/archive.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="19" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="2678">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page-full-width.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/content/themes/320press/page-full-width.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="16" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1716">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/single.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="6" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1898">
+                  <folding>
+                    <marker date="1392049801000" expanded="true" signature="71:2159" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="133:2087" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="347:1588" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="363:864" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="962:1045" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="1090:1543" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="1735:2053" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="1753:1831" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="1871:2000" placeholder="..." />
+                    <marker date="1392049801000" expanded="true" signature="2018:2037" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="post-template.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post-template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="825" column="19" selection-start="23653" selection-end="23654" vertical-scroll-proportion="-0.55657494" vertical-offset="21450" max-vertical-offset="37544">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -126,18 +139,30 @@
       <list>
         <option value="$PROJECT_DIR$/public/site/index.php" />
         <option value="$PROJECT_DIR$/.gitmodules" />
-        <option value="$PROJECT_DIR$/public/content/themes/320-child/front-page.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/wp-config.php" />
         <option value="$PROJECT_DIR$/public/site/wp-login.php" />
         <option value="$PROJECT_DIR$/public/conf/wp.php" />
+        <option value="$PROJECT_DIR$/public/site/wp-blog-header.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/front-page.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/header.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/single.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/index.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/archive.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320press/page-full-width.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/page.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/style.css" />
+        <option value="$PROJECT_DIR$/public/content/themes/320press/functions.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/functions.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="x" value="44" />
+    <option name="y" value="22" />
+    <option name="width" value="1206" />
+    <option name="height" value="1078" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -153,7 +178,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -165,7 +190,204 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="320press">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="320press">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="library">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="320press">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="library">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="css">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="themes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="320-child">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="herbertpixner.com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="public">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="conf">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,107 +396,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dev-sandbox-com" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/content/themes/320-child" />
+      <recent name="$PROJECT_DIR$/public/content/themes/320press" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/content/themes/320-child" />
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/public/conf" />
       <recent name="$PROJECT_DIR$/public/content/themes/320press/images" />
       <recent name="$PROJECT_DIR$/public/content/themes/320press" />
-      <recent name="$PROJECT_DIR$/public/content/themes" />
     </key>
   </component>
   <component name="RunManager">
@@ -320,13 +462,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
+    <frame x="44" y="22" width="1206" height="1078" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4375" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -334,16 +475,17 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.253125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24129353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298479" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -363,10 +505,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.253125" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -386,132 +528,307 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/wordpress.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="604" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2808">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitmodules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/wp-settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9724">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="1300">
-          <folding>
-            <marker date="1391704520000" expanded="true" signature="133:395" placeholder="SELECT * FRO..$wpdb-&gt;posts inner..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/wordpress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="604" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/wp-settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9490">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitmodules">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1300">
-          <folding>
-            <marker date="1391704520000" expanded="true" signature="133:395" placeholder="SELECT * FRO..$wpdb-&gt;posts inner..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/wp-config---.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="603" selection-end="3368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2158">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/site/wp-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="72" selection-start="244" selection-end="244" vertical-scroll-proportion="-0.24719101" vertical-offset="364" max-vertical-offset="24076">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/wp-config-.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="3391" selection-end="3606" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="2418">
+        <state line="437" column="0" selection-start="15134" selection-end="15309" vertical-scroll-proportion="0.0" vertical-offset="11125" max-vertical-offset="12818">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="795" selection-end="796" vertical-scroll-proportion="-13.571428" vertical-offset="426" max-vertical-offset="1768">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2262">
+          <folding>
+            <marker date="1392049808000" expanded="true" signature="66:2899" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="611:2827" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="774:1832" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="790:1437" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="1512:1599" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="1644:1787" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2141:2399" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2167:2386" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2473:2793" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2491:2570" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2610:2740" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2758:2777" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="45" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="2132">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/wp-config.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
+        <state line="81" column="9" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0" vertical-offset="2106" max-vertical-offset="2210">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="2678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/page-full-width.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="1716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1898">
+          <folding>
+            <marker date="1392049801000" expanded="true" signature="71:2159" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="133:2087" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="347:1588" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="363:864" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="962:1045" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="1090:1543" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="1735:2053" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="1753:1831" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="1871:2000" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="2018:2037" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="825" column="19" selection-start="23653" selection-end="23653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wordpress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="604" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="2808" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="598" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/front-page--.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="1300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wordpress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="604" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9490" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-config---.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="603" selection-end="3368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2158" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index--.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="50" selection-start="795" selection-end="796" vertical-scroll-proportion="0.33274958" vertical-offset="426" max-vertical-offset="1768" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/wp-config-.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="24076" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/conf/wp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="835" selection-end="1062" vertical-scroll-proportion="-0.95555556" vertical-offset="1586" max-vertical-offset="2756">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3555555" vertical-offset="1586" max-vertical-offset="2756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-blog-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/library/bones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="34" selection-start="3736" selection-end="3736" vertical-scroll-proportion="2.0276406" vertical-offset="0" max-vertical-offset="5642" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="24" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.6367226" vertical-offset="577" max-vertical-offset="1976" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/sidebar-sidebar2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="932" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1013" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/front-page--.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="66" selection-end="66" vertical-scroll-proportion="0.15399803" vertical-offset="0" max-vertical-offset="1300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1898">
+          <folding>
+            <marker date="1392049801000" expanded="true" signature="71:2159" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="133:2087" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="347:1588" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="363:864" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="962:1045" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="1090:1543" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="1735:2053" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="1753:1831" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="1871:2000" placeholder="..." />
+            <marker date="1392049801000" expanded="true" signature="2018:2037" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/page-full-width.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2262">
+          <folding>
+            <marker date="1392049808000" expanded="true" signature="66:2899" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="611:2827" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="774:1832" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="790:1437" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="1512:1599" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="1644:1787" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2141:2399" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2167:2386" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2473:2793" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2491:2570" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2610:2740" placeholder="..." />
+            <marker date="1392049808000" expanded="true" signature="2758:2777" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="825" column="19" selection-start="23653" selection-end="23654" vertical-scroll-proportion="-0.55657494" vertical-offset="21450" max-vertical-offset="37544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/library/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="326" column="23" selection-start="15064" selection-end="15070" vertical-scroll-proportion="14.563574" vertical-offset="0" max-vertical-offset="10556" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.852459" vertical-offset="52" max-vertical-offset="754" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="45" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="2132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="437" column="0" selection-start="15134" selection-end="15309" vertical-scroll-proportion="0.0" vertical-offset="11125" max-vertical-offset="12818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="9" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.6519685" vertical-offset="1562" max-vertical-offset="2210">
           <folding />
         </state>
       </provider>
