@@ -56,19 +56,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="45" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="2132">
+                <state line="18" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.61417323" vertical-offset="26" max-vertical-offset="2080">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="9" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.6519685" vertical-offset="1562" max-vertical-offset="2210">
+                <state line="81" column="9" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="2210">
                   <folding />
                 </state>
               </provider>
@@ -116,7 +116,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="post-template.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="post-template.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post-template.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="825" column="19" selection-start="23653" selection-end="23654" vertical-scroll-proportion="-0.55657494" vertical-offset="21450" max-vertical-offset="37544">
@@ -150,10 +150,10 @@
         <option value="$PROJECT_DIR$/public/content/themes/320-child/index.php" />
         <option value="$PROJECT_DIR$/public/content/themes/320-child/archive.php" />
         <option value="$PROJECT_DIR$/public/content/themes/320press/page-full-width.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/320-child/page.php" />
         <option value="$PROJECT_DIR$/public/content/themes/320-child/style.css" />
         <option value="$PROJECT_DIR$/public/content/themes/320press/functions.php" />
         <option value="$PROJECT_DIR$/public/content/themes/320-child/functions.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320-child/page.php" />
       </list>
     </option>
   </component>
@@ -463,7 +463,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="22" width="1206" height="1078" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4375" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -812,13 +812,6 @@
         <state line="22" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.852459" vertical-offset="52" max-vertical-offset="754" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="2132">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320press/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="437" column="0" selection-start="15134" selection-end="15309" vertical-scroll-proportion="0.0" vertical-offset="11125" max-vertical-offset="12818">
@@ -828,7 +821,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="9" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.6519685" vertical-offset="1562" max-vertical-offset="2210">
+        <state line="81" column="9" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.0" vertical-offset="652" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.61417323" vertical-offset="26" max-vertical-offset="2080">
           <folding />
         </state>
       </provider>
