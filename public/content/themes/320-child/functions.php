@@ -60,11 +60,11 @@ function get_top_parent_page_id() {
 }
 
 // add active class
-add_filter('nav_menu_css_class', 'add_active_class', 10, 2 );
+add_filter('nav_menu_css_class', 'add_my_active_class', 10, 2 );
 
-function add_active_class($classes, $item) {
+function add_my_active_class($classes, $item) {
 
-    /*if( in_array( 'current-menu-item', $classes ) ||
+    if( in_array( 'current-menu-item', $classes ) ||
         in_array( 'current-menu-ancestor', $classes ) ||
         in_array( 'current-menu-parent', $classes ) ||
         in_array( 'current_page_parent', $classes ) ||
@@ -72,14 +72,34 @@ function add_active_class($classes, $item) {
         in_array( 'current_page_ancestor', $classes )
     ) {
 
-        $classes[] = "active";
+        $classes[] = "active2";
     }
 
-    return $classes;*/
+    return $classes;
 
-        if( $item->menu_item_parent == 0 && in_array('current-menu-item', $classes) ) {
-            $classes[] = "active";
+        /*if( $item->menu_item_parent == 0 && in_array('current-menu-item', $classes) ) {
+            $classes[] = "active2";
         }
-        return $classes;
+        return $classes;*/
 
 }
+
+
+/*
+/*
+ *
+ * custom walker menu for list pages
+ *
+ */
+
+register_nav_menus(                      // wp3+ menus
+    array(
+//        'main_nav' => 'The Main Menu',    main nav in header
+//        'footer_links' => 'Footer Links'  secondary nav in footer
+
+          'sub_nav' => 'The Sub Menu'
+    )
+);
+class My_Custom_Walker extends Walker_page {
+
+}  //End Walker Class

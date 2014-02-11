@@ -10,7 +10,17 @@
                      */
 
 
+                   /* // Call class:
+                    $My_Walker = new My_Custom_Walker();
 
+                    /*$args = array(
+                        'walker'      => $My_Walker
+                    );
+
+                    wp_list_pages( $args );*/
+
+
+/*
                     echo '<pre>';
                     var_dump($post->ID);
                     echo '</pre>';
@@ -18,10 +28,11 @@
                     $parent = get_top_parent_page_id();
 
                     $args = array(
+                        'walker' => new My_Custom_Walker(),
                         'depth' => 1,
                         'child_of' => $parent
                     );
-                    wp_list_pages($args);
+                    wp_list_pages($args);*/
 
 
 
