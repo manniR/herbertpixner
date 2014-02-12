@@ -92,14 +92,35 @@ function add_my_active_class($classes, $item) {
  *
  */
 
-register_nav_menus(                      // wp3+ menus
+// page menu
+register_nav_menus(
     array(
-//        'main_nav' => 'The Main Menu',    main nav in header
-//        'footer_links' => 'Footer Links'  secondary nav in footer
-
-          'sub_nav' => 'The Sub Menu'
+        // location => description
+          'theme_location' => 'hp_side_menu'
     )
 );
-class My_Custom_Walker extends Walker_page {
+
+
+function hp_side_nav() {
+    // display the wp3 menu if available
+    wp_nav_menu(
+        array(
+            //'menu' => 'main_nav', /* menu name */
+            'menu_class' => 'nav navbar-nav',
+            'theme_location' => 'hp_side_menu', /* where in the theme it's assigned */
+            'container' => 'false', /* container class */
+            'fallback_cb' => 'wp_bootstrap_main_nav_fallback', /* menu fallback */
+            // 'depth' => '2',  suppress lower levels for now
+            'walker' => new Bootstrap_walker()
+        )
+    );
+}
+
+
+
+class hp_page_side_walker extends Walker_page {
+
+
+
 
 }  //End Walker Class
