@@ -196,6 +196,203 @@ class MR_Child_Only_Walker extends Walker_Nav_Menu {
 
 
 
+ /*
+  * admin tourdates listing
+  * post_type = tourdate
+  *
+  * */
+
+// table header
+add_filter('manage_tourdate_posts_columns', 'mr_tourdate_table_head');
+
+function mr_tourdate_table_head($defaults){
+    //$defaults['datum'] = 'Datum';
+
+    $columns = array(
+        'cb'        => '<input type="checkbox" />',
+        'title'     => __('Title'),
+        'tourdate'  => __('Tourdate')
+    );
+
+    return $columns;
+    //return $defaults;
+
+}
+
+
+//table data
+add_action('manage_tourdate_posts_custom_column', 'mr_manage_tourdate_columns', 10,2);
+
+function mr_manage_tourdate_columns($column, $post_id){
+    global $post;
+
+    switch($column){
+        case 'tourdate':
+            //setlocale (LC_ALL, 'de_DE@euro', 'de_DE', 'de', 'ge');
+            setlocale(LC_TIME, 'de_DE');//  deutsch Monatsnamen
+            echo strftime('%d. %B %Y',strtotime(get_field('datum',$post_id)));
+            break;
+        default:
+            break;
+    }
+}
+
+//make it sortable
+add_filter( 'manage_edit-tourdate_sortable_columns', 'mr_tourdate_sortable_columns' );
+
+function mr_tourdate_sortable_columns( $columns ) {
+
+    $columns['tourdate'] = 'tourdate';
+    return $columns;
+}
+
+
+/* Only run our customization on the 'edit.php' page in the admin. */
+add_action( 'load-edit.php', 'mr_edit_tourdate_load' );
+
+function mr_edit_tourdate_load() {
+    add_filter( 'request', 'mr_sort_tourdate' );
+}
+
+/* Sorts the tourdates. */
+function mr_sort_tourdate( $vars ) {
+
+    /* Check if we're viewing the 'movie' post type. */
+    if ( isset( $vars['post_type'] ) && 'touredate' == $vars['post_type'] ) {
+
+        /* Check if 'orderby' is set to 'duration'. */
+        if ( isset( $vars['orderby'] ) && 'touredate' == $vars['orderby'] ) {
+
+            /* Merge the query vars with our custom variables. */
+            $vars = array_merge(
+                $vars,
+                array(
+                    'meta_key' => 'datum',
+                    'orderby' => 'meta_value_num'
+                )
+            );
+        }
+    }
+
+    return $vars;
+}
+
+// Quick edit - Add to our admin_init function
+add_action('quick_edit_custom_box',  'myown_add_quick_edit', 10, 2);
+
+function myown_add_quick_edit($column_name, $post_type) {
+
+
+    if ($column_name != 'tourdate') return;
+    global $post;
+
+    ?>
+    <fieldset class="inline-edit-col-left">
+        <div class="inline-edit-col">
+            <span class="title">Date</span>
+            <input id="tourdate" type="hidden" name="tourdate" value="" />
+            <input id="myfield" type="text" name="myfield" value="<?php echo get_field('datum', $post->id) ?>"/>
+        </div>
+    </fieldset>
+<?php
+}
+
+add_action('load-post.php', 'mr_edit_post');
+function mr_edit_post(){
+
+    /**
+     * @var wpbd $wpdb
+     */
+
+    global $wpdb;
+
+    $post = get_post( $_GET['post']);
+    echo $post->post_title;
+    //$meta = new stdClass();
+    $meta = get_post_meta($_GET['post']);
+    //$meta = get_metadata('post',$_GET['post']);
+
+    foreach ($meta as $fa => $fk) {
+        echo $fa . '<br/>' ;
+        foreach ($fk as $k => $v) {
+            echo $k . ':::' . $v . '<br/>';
+        }
+
+    }
+
+
+    echo '<pre>';
+    var_dump($meta);
+    echo '</pre>';
+
+
+   //echo $_GET['post'];
 
 
 
+     echo '<pre>';
+     var_dump($wpdb);
+     echo '</pre>';
+}
+
+
+// Add to our admin_init function
+//add_action('save_post', 'myown_save_quick_edit_data');
+
+function myown_save_quick_edit_data($post_id) {
+    // verify if this is an auto save routine.
+    if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
+        return $post_id;
+    // Check permissions
+    if ( 'mytype' == $_POST['post_type'] ) {
+        if ( !current_user_can( 'edit_page', $post_id ) )
+            return $post_id;
+    } else {
+        if ( !current_user_can( 'edit_post', $post_id ) )
+            return $post_id;
+    }
+    // Authentication passed now we save the data
+    if (isset($_POST['myfield']) && ($post->post_type != 'revision')) {
+        $my_fieldvalue = esc_attr($_POST['myfield']);
+        if ($my_fieldvalue)
+            update_post_meta( $post_id, 'myfield', $my_fieldvalue);
+        else
+            delete_post_meta( $post_id, 'myfield');
+    }
+    return $my_fieldvalue;
+}
+
+
+// Add to our admin_init function
+add_action('admin_footer', 'myown_quick_edit_javascript');
+
+function myown_quick_edit_javascript() {
+    global $current_screen;
+    if (($current_screen->post_type != 'mytype')) return;
+
+    ?>
+    <script type="text/javascript">
+        function set_myfield_value(fieldValue, nonce) {
+            // refresh the quick menu properly
+            inlineEditPost.revert();
+            console.log(fieldValue);
+            jQuery('#myfield').val(fieldValue);
+        }
+    </script>
+<?php
+}
+// Add to our admin_init function
+add_filter('post_row_actions', 'myown_expand_quick_edit_link', 10, 2);
+function myown_expand_quick_edit_link($actions, $post) {
+    global $current_screen;
+    if (($current_screen->post_type != 'tourdate'))
+        return $actions;
+    $nonce = wp_create_nonce( 'myfield_'.$post->ID);
+    $myfielvalue = get_post_meta( $post->ID, 'myfield', TRUE);
+    $actions['inline hide-if-no-js'] = '<a href="#" class="editinline" title="';
+    $actions['inline hide-if-no-js'] .= esc_attr( __( 'Edit this item inline' ) ) . '"';
+    $actions['inline hide-if-no-js'] .= " onclick=\"set_myfield_value('{$myfielvalue}')\" >";
+    $actions['inline hide-if-no-js'] .= __( 'Quick Edit' );
+    $actions['inline hide-if-no-js'] .= '</a>';
+    return $actions;
+}
