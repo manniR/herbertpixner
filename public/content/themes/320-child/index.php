@@ -2,20 +2,14 @@
 
 
 			<div id="content" class="clearfix row">
+
+    <div id="sidebar1" class="col-sm-3" role="complementary">
                 index
-<!--list pages-->
-                <?php $list_pages_args= array(
-                    'depth' => 1, 'show_date' => '',
-                    'child_of' => $post->ID , 'exclude' => '',
-                    'title_li' => __('Pages'), 'echo' => 1,
-                    'authors' => '', 'sort_column' => 'menu_order, post_title',
-                    'link_before' => '', 'link_after' => '', 'walker' => '',
-
-                ); ?>
-                <?php wp_list_pages(); ?>
 
 
-				<div id="main" class="col-sm-8 clearfix" role="main">
+    </div> <!--END SIDEBAR-->
+
+				<div id="main" class="col-sm-9 clearfix" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -74,8 +68,6 @@
 					<?php endif; ?>
 
 				</div> <!-- end #main -->
-
-				<?php get_sidebar(); // sidebar 1 ?>
 
 			</div> <!-- end #content -->
 

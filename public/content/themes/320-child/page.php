@@ -2,64 +2,35 @@
 
 			<div id="content" class="clearfix row">
 
-                <?php wp_nav_menu(array('theme_location'=>'hp_side_menu', 'walker'=> new MR_Child_Only_Walker(), 'depth'=>2)) //hp_side_nav(); //get_sidebar(); // sidebar 1 ?>
+
+    <div id="sidebar1" class="col-sm-3" role="complementary">
+            <!--SIDE BAR-->
+
+        <?php wp_nav_menu(array('theme_location'=>'hp_side_menu', 'walker'=> new MR_Child_Only_Walker(), 'depth'=>2)) //hp_side_nav(); //get_sidebar(); // sidebar 1 ?>
+
+        <?php //get_sidebar(); // sidebar 1 ?>
+
+        <?php
+        if($post->post_parent)
+            $children = wp_list_pages("title_li=&child_of=".$post->post_parent."&echo=0");
+        else
+            $children = wp_list_pages("title_li=&child_of=".$post->ID."&echo=0");
+        if ($children) { ?>
+            <ul class="nav nav-pills nav-stacked span2">
+                <?php echo $children; ?>
+            </ul>
+        <?php } ?>
 
 
-				<div id="main" class="col-sm-8 clearfix" role="main">
 
-
-
-
-                    <?php
-
-                    /**
-                     * @var wpdb $post
-                     */
-
-
-                    // Call class:
-                    /*$My_Walker = new Bootstrap_walker();
-
-                    $args = array(
-                        //'walker'      => $My_Walker,
-                        'depth' =>4
-
-                    );
-
-                    wp_list_pages( $args );*/
+    </div> <!--END SIDEBAR-->
 
 
 
 
 
-                    /*echo '<pre>';
-                    var_dump($post->ID);
-                    echo '</pre>';
+				<div id="main" class="col-sm-9 clearfix" role="main">
 
-                    $parent = get_top_parent_page_id();*/
-
-                    /*$args = array(
-                        'walker' => new My_Custom_Walker(),
-                        'depth' => 1,
-                        'child_of' => $parent
-                    );
-                    wp_list_pages($args);*/
-
-
-
-                    ?>
-
-
-                    <?php
-                    if($post->post_parent)
-                        $children = wp_list_pages("title_li=&child_of=".$post->post_parent."&echo=0");
-                    else
-                        $children = wp_list_pages("title_li=&child_of=".$post->ID."&echo=0");
-                    if ($children) { ?>
-                        <ul>
-                            <?php echo $children; ?>
-                        </ul>
-                    <?php } ?>
 
 
 

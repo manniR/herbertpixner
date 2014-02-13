@@ -21,7 +21,12 @@ define('WP_HOME', 'http://dev.freiestheater.at');
 define('WP_SITEURL', WP_HOME . '/site');
 define('WP_CONTENT_DIR', APP_ROOT . '/public/content');
 define('WP_CONTENT_URL',  WP_HOME. '/content');
+//define('WP_PLUGIN_DIR', APP_ROOT . '/public/content/plugins');
+//define('WP_PLUGIN_URL',  WP_HOME. '/content/plugins');
 
+
+  // full path, no trailing slash
+//WP_PLUGIN_URL  // full url, no trailing slash
 
 
 // ** MySQL settings - You can get this info from your web host ** //
