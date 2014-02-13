@@ -28,11 +28,8 @@
           <file leaf-file-name="sidebar-sidebar2.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/content/themes/320press/sidebar-sidebar2.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="41" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
-                  <folding>
-                    <marker date="1392115468000" expanded="true" signature="60:457" placeholder="..." />
-                    <marker date="1392115468000" expanded="true" signature="322:423" placeholder="..." />
-                  </folding>
+                <state line="2" column="41" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="624">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -72,7 +69,7 @@
           <file leaf-file-name="nav-menu-template.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/site/wp-includes/nav-menu-template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="8" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="16458">
+                <state line="49" column="8" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="1274" max-vertical-offset="16614">
                   <folding />
                 </state>
               </provider>
@@ -81,7 +78,7 @@
           <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/content/themes/320press/sidebar.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="35" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+                <state line="16" column="35" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="624">
                   <folding>
                     <marker date="1392115468000" expanded="true" signature="60:457" placeholder="..." />
                     <marker date="1392115468000" expanded="true" signature="322:423" placeholder="..." />
@@ -90,10 +87,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="198" column="0" selection-start="4662" selection-end="4662" vertical-scroll-proportion="0.75326216" vertical-offset="4383" max-vertical-offset="5226">
+                <state line="198" column="0" selection-start="4662" selection-end="4662" vertical-scroll-proportion="0.76868325" vertical-offset="4370" max-vertical-offset="5226">
                   <folding />
                 </state>
               </provider>
@@ -104,7 +101,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state line="92" column="35" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="3094">
                   <folding>
-                    <element signature="e#355#421#0" expanded="true" />
                     <marker date="1392219624000" expanded="true" signature="65:2872" placeholder="..." />
                     <marker date="1392219624000" expanded="true" signature="302:2840" placeholder="..." />
                     <marker date="1392219624000" expanded="true" signature="1527:1610" placeholder="..." />
@@ -125,10 +121,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="post-template.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="post-template.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post-template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="773" column="2" selection-start="22208" selection-end="22208" vertical-scroll-proportion="75.55102" vertical-offset="16214" max-vertical-offset="37544">
+                <state line="773" column="2" selection-start="22208" selection-end="22208" vertical-scroll-proportion="-3.7142856" vertical-offset="20098" max-vertical-offset="37544">
                   <folding />
                 </state>
               </provider>
@@ -164,7 +160,7 @@
           <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/content/themes/320press/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="420" column="57" selection-start="14564" selection-end="14564" vertical-scroll-proportion="0.0" vertical-offset="10663" max-vertical-offset="12714">
+                <state line="420" column="57" selection-start="14564" selection-end="14564" vertical-scroll-proportion="0.0" vertical-offset="10920" max-vertical-offset="12896">
                   <folding>
                     <marker date="1392214303000" expanded="true" signature="4210:5287" placeholder="..." />
                     <marker date="1392214303000" expanded="true" signature="4257:5274" placeholder="..." />
@@ -212,8 +208,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-122" />
-    <option name="y" value="154" />
+    <option name="x" value="591" />
+    <option name="y" value="348" />
     <option name="width" value="1528" />
     <option name="height" value="1008" />
   </component>
@@ -243,16 +239,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freiestheater.at" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -379,6 +365,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freiestheater.at" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,15 +444,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-122" y="154" width="1528" height="1008" extended-state="0" />
-    <editor active="true" />
+    <frame x="591" y="348" width="1528" height="1008" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4375" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24018325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24018325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -465,13 +461,13 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -491,10 +487,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.253125" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -546,9 +542,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2262">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2262" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
@@ -565,9 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1898">
-          <folding />
-        </state>
+        <state line="3" column="6" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1898" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post-template.php">
@@ -593,9 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2262">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2262" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
@@ -612,9 +602,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1898">
-          <folding />
-        </state>
+        <state line="3" column="6" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1898" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post-template.php">
@@ -736,9 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/site/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="9" selection-start="2128" selection-end="2128" vertical-scroll-proportion="1.2720764" vertical-offset="962" max-vertical-offset="63388">
-          <folding />
-        </state>
+        <state line="83" column="9" selection-start="2128" selection-end="2128" vertical-scroll-proportion="1.2720764" vertical-offset="962" max-vertical-offset="63388" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320press/library/bones.php">
@@ -757,16 +743,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="995" selection-end="995" vertical-scroll-proportion="0.3855932" vertical-offset="390" max-vertical-offset="1898">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="995" selection-end="995" vertical-scroll-proportion="0.3855932" vertical-offset="390" max-vertical-offset="1898" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="27" selection-start="2864" selection-end="2864" vertical-scroll-proportion="0.44915253" vertical-offset="1790" max-vertical-offset="2262">
-          <folding />
-        </state>
+        <state line="77" column="27" selection-start="2864" selection-end="2864" vertical-scroll-proportion="0.44915253" vertical-offset="1790" max-vertical-offset="2262" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320press/header.php">
@@ -800,10 +782,7 @@
     <entry file="file://$PROJECT_DIR$/public/content/themes/320press/sidebar-sidebar2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="41" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
-          <folding>
-            <marker date="1392115468000" expanded="true" signature="60:457" placeholder="..." />
-            <marker date="1392115468000" expanded="true" signature="322:423" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="773" column="2" selection-start="22208" selection-end="22208" vertical-scroll-proportion="75.55102" vertical-offset="16214" max-vertical-offset="37544">
+        <state line="773" column="2" selection-start="22208" selection-end="22208" vertical-scroll-proportion="-3.7142856" vertical-offset="20098" max-vertical-offset="37544">
           <folding />
         </state>
       </provider>
@@ -856,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="35" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="3094">
           <folding>
-            <element signature="e#355#421#0" expanded="true" />
             <marker date="1392219624000" expanded="true" signature="65:2872" placeholder="..." />
             <marker date="1392219624000" expanded="true" signature="302:2840" placeholder="..." />
             <marker date="1392219624000" expanded="true" signature="1527:1610" placeholder="..." />
@@ -874,7 +852,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="0" selection-start="4662" selection-end="4662" vertical-scroll-proportion="0.75326216" vertical-offset="4383" max-vertical-offset="5226">
+        <state line="198" column="0" selection-start="4662" selection-end="4662" vertical-scroll-proportion="0.76868325" vertical-offset="4370" max-vertical-offset="5226">
           <folding />
         </state>
       </provider>
