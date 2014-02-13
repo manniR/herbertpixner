@@ -21,6 +21,11 @@ define('WP_HOME', 'http://dev.herbertpixner.com');
 define('WP_SITEURL', WP_HOME . '/site/');
 define('WP_CONTENT_DIR', APP_ROOT . '/content/');
 define('WP_CONTENT_URL',  WP_HOME. '/content');
+define('WP_CONTENT_URL',  WP_HOME. '/content');
+define('WP_PLUGIN_DIR',  APP_ROOT. '/content/plugins');
+define('WP_PLUGIN_URL',  WP_HOME. '/content/plugins');
+define('PLUGINDIR',  APP_ROOT. '/content/plugins');
+
 
 /*
 echo('APP_ROOT ' . APP_ROOT . '<br/>');

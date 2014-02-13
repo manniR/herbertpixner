@@ -70,6 +70,7 @@ function add_my_active_class($classes, $item) {
         in_array( 'current-menu-parent', $classes ) ||
         in_array( 'current-page-parent', $classes ) ||
         in_array( 'current-page-item', $classes ) ||
+        in_array( 'current_page_item', $classes ) ||
         in_array( 'current-page-ancestor', $classes )
     ) {
 
@@ -189,7 +190,7 @@ class MR_Child_Only_Walker extends Walker_Nav_Menu {
         if ( 0 == $depth)
             return;
 
-         parent::display_element( $object, $children_elements, $max_depth, $depth, $args, $output );
+         return parent::display_element( $object, $children_elements, $max_depth, $depth, $args, $output );
     }
 } // end Child only Walker
 
