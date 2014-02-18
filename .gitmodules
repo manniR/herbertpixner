@@ -4,3 +4,6 @@
 [submodule "public/content/themes/320press"]
 	path = public/content/themes/320press
 	url = https://github.com/320press/wordpress-bootstrap
+[submodule "public/content/themes/responsive"]
+	path = public/content/themes/responsive
+	url = https://github.com/cyberchimps/responsive

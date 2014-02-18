@@ -297,6 +297,7 @@ function myown_add_quick_edit($column_name, $post_type) {
 <?php
 }
 
+// gets triggerd when click on edit
 add_action('load-post.php', 'mr_edit_post');
 function mr_edit_post(){
 
@@ -304,7 +305,7 @@ function mr_edit_post(){
      * @var wpbd $wpdb
      */
 
-    global $wpdb;
+    /*global $wpdb;
 
     $post = get_post( $_GET['post']);
     echo $post->post_title;
@@ -318,21 +319,21 @@ function mr_edit_post(){
             echo $k . ':::' . $v . '<br/>';
         }
 
-    }
+    }*/
 
 
-    echo '<pre>';
+   /* echo '<pre>';
     var_dump($meta);
-    echo '</pre>';
+    echo '</pre>';*/
 
 
    //echo $_GET['post'];
 
 
 
-     echo '<pre>';
+    /*echo '<pre>';
      var_dump($wpdb);
-     echo '</pre>';
+     echo '</pre>';*/
 }
 
 
