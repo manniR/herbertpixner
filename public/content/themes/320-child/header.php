@@ -35,25 +35,28 @@
 
 	<body <?php body_class(); ?>>
 
-		<header role="banner">
+		<header class="container" role="banner">
 
-			<div class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar navbar-static-top">
+
+                    <!--header image-->
+                        <img class="img-responsive" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+                    <!--header title-->
+                        <h1 id="logo">herbert pixner</h1>
+
 				<div class="container">
 
+
+                    <!--responsive nav-->
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-
-						<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-					</div>
-
 					<div class="collapse navbar-collapse navbar-responsive-collapse">
 						<?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-
-
+					</div>
 					</div>
 
 				</div> <!-- end .container -->

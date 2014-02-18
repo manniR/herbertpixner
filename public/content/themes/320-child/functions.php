@@ -397,3 +397,39 @@ function myown_expand_quick_edit_link($actions, $post) {
     $actions['inline hide-if-no-js'] .= '</a>';
     return $actions;
 }
+
+
+/*
+ controll settings for header image
+*/
+
+$args = array(
+    //'flex-width'    => true,
+    'width'         => 940,
+    //'flex-height'   => true,
+    'height'        => 360,
+    'default-image' => get_template_directory_uri() . '/images/header.jpg',
+);
+add_theme_support( 'custom-header', $args );
+
+
+
+// enqueue javascript
+if( !function_exists( "hp_js" ) ) {
+    function hp_js(){
+
+        wp_register_script( 'fittext',
+            get_stylesheet_directory_uri() . '/js/jquery.fittext.js',
+            array('jquery'),
+            '1.2' );
+        wp_register_script( 'hp-main',
+            get_stylesheet_directory_uri() . '/js/hp-main.js',
+            array('jquery'),
+            '1.2' );
+        wp_enqueue_script('fittext');
+        wp_enqueue_script('hp-main');
+
+    }
+}
+add_action( 'wp_enqueue_scripts', 'hp_js' );
+

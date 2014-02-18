@@ -83,40 +83,59 @@ echo '</pre>';*/
 <!-- the loop -->
 <?php while( $tourdates_query->have_posts() ) : $tourdates_query->the_post(); ?>
 
+<div class="panel-group" id="accordion">
+
 <?php
 //setlocale (LC_ALL, 'de_DE@euro', 'de_DE', 'de', 'ge');
-setlocale(LC_TIME, 'de_DE');//  deutsch Monatsnamen
+        setlocale(LC_TIME, 'de_DE');//  deutsch Monatsnamen
 
 //        $date = new DateTime(get_field('datum',$post->ID));
-    //    echo $month = $date->format('m');
+        //    echo $month = $date->format('m');
 //         $date->format('Y-m-d');
 
-    $datum = strftime('%d. %B %Y',strtotime(get_field('datum',$post->ID))); // deutsche monatsnamen
-    //$datum = strftime('%d. %B %Y',$date->getTimestamp());
+        $datum = strftime('%d. %B %Y',strtotime(get_field('datum',$post->ID))); // deutsche monatsnamen
+        //$datum = strftime('%d. %B %Y',$date->getTimestamp());
         $m[0] = explode(' ',$datum)[1];
 
         if ($m[0] != $m[1]){
-            //neues datum
+            //neues MONAT
             echo '<h3 class="panel">' . $m[0].'</h3>';
             $m[1] = $m[0];
         }
-
         //echo explode(' ',$datum)[1] || "" ? explode(' ',$datum)[1] : "00";
+        ?>
 
-?>
+  <!--START PANELS-->
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                <span><?php echo date('d-m-Y',strtotime(get_field('datum', $post->ID)))?></span>
+                      <?php the_title() ?>
+            </a>
+        </h4>
+    </div>
+    <div id="<?php the_ID(); ?>" class="panel-collapse collapse in">
+        <div class="panel-body">
+            <p>Location: <?php echo get_field('location', $post->ID)?></p>
+            <p>Einlass: <?php echo get_field('einlass', $post->ID)?></p>
+            <p>Beginn: <?php echo get_field('beginn', $post->ID)?></p>
+            <p><?php echo (get_field('ausverkauft')? 'AUSVERKAUFT' : '---') ?></p>
+            <p><a href="<?php echo get_field('ticket_link', $post->ID)?>"></a>
+            <?php echo _('Hier online reservieren') ?>
+            </p>
+        </div>
+    </div>
+</div>
 
-        <!--TOURDATES LISTING-->
-        <h2><?php the_title() ?></h2>
+<p><?php echo date('d-m-Y',strtotime(get_field('datum', $post->ID)))?></p>
 
-<p><?php echo get_field('datum', $post->ID)?></p>
-<p><?php echo get_field('location', $post->ID)?></p>
-<p><?php echo get_field('einlass', $post->ID)?></p>
-<p><?php echo get_field('beginn', $post->ID)?></p>
-<p><?php echo get_field('ticket_link', $post->ID)?></p>
 
 
 
 <?php endwhile ?>
+
+    </div><!--end accordion-->
 <!-- end of the loop -->
 
 <!-- pagination here -->
@@ -126,7 +145,6 @@ setlocale(LC_TIME, 'de_DE');//  deutsch Monatsnamen
 <?php else: ?>
 <p> <?php _e( 'Sorry, no tourdates where found'); ?></p>
 <?php endif; ?>
-
 
 
     </div> <!-- end #main -->
