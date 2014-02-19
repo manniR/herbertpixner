@@ -7,7 +7,7 @@
                 index
 
 
-    </div> <!--END SIDEBAR-->
+    </div> <!--END SIDEBAR Index-->
 
 				<div id="main" class="col-sm-9 clearfix" role="main">
 
