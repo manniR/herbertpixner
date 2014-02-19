@@ -95,3 +95,15 @@ img	{
 #main{
     margin-bottom: 11%;
 }
+
+.footer-links{
+    float:left;
+}
+
+footer .menu{
+    padding:0;
+}
+footer .nav{
+
+}
+

@@ -90,10 +90,10 @@ echo '</pre>';*/
 
 ?>
 <?php if($tourdates_query->have_posts()): ?>
+<div class="panel-group" id="accordion">
 <!-- the loop -->
 <?php while( $tourdates_query->have_posts() ) : $tourdates_query->the_post(); ?>
 
-<div class="panel-group" id="accordion">
 
 <?php
 //setlocale (LC_ALL, 'de_DE@euro', 'de_DE', 'de', 'ge');
@@ -149,7 +149,7 @@ echo '</pre>';*/
 
 <!-- pagination here -->
 
-<?php wp_reset_postdata(); ?>
+<?//php wp_reset_postdata(); ?>
 
 <?php else: ?>
 <p> <?php _e( 'Sorry, no tourdates where found'); ?></p>
@@ -159,6 +159,8 @@ echo '</pre>';*/
     </div> <!-- end #main -->
 
 </div> <!-- end #content -->
+
+
 
 <?php get_footer(); ?>
 
