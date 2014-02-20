@@ -106,21 +106,38 @@ html {
 }
 
 /*extends footer to bottom*/
-footer{
+#container > footer{
     box-shadow: 0px 500px 0px 500px #000;
 }
 #inner-footer{
     background: black;
+    color:white;
 }
 .footer-links{
-    float:left;
+    float:none;
 }
 
 footer .menu{
     padding:0;
 }
-footer .nav{
 
+
+footer .nav a:hover, footer .nav li.active a, footer .nav li.active a:hover, footer .nav li{
+    background:transparent;
+    color:white;
+}
+
+footer nav p {
+    margin-left:16px;
+    font-size:0.6em
+}
+
+
+#footer-main-menu a {
+    font-size:0.4em;
+    line-height: 1.5em;
+    padding:0;
+    /*padding-bottom:0.3em;*/
 }
 
 /*ACCORDION*/

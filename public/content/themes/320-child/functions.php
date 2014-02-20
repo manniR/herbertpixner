@@ -433,3 +433,17 @@ if( !function_exists( "hp_js" ) ) {
 }
 add_action( 'wp_enqueue_scripts', 'hp_js' );
 
+
+function mr_footer_menu() {
+    // display the wp3 menu if available
+    wp_nav_menu(
+        array(
+            'menu' => 'footer_links', /* menu name */
+            'menu_class'      => 'nav nav-stacked nav-pills', /*menu class*/
+            'menu_id' => 'footer-main-menu',
+            'theme_location' => 'footer_links', /* where in the theme it's assigned */
+            'container_class' => 'footer-links clearfix', /* container class */
+            'fallback_cb' => 'wp_bootstrap_footer_links_fallback' /* menu fallback */
+        )
+    );
+}

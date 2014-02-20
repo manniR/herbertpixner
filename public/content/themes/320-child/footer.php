@@ -1,6 +1,6 @@
-			<footer role="contentinfo">
+			<footer role="contentinfo" class="">
 
-				<div id="inner-footer" class="clearfix">
+				<div id="inner-footer" class="clearfix row">
 
 		          <div id="widget-footer" class="clearfix row">
 		            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
@@ -11,13 +11,26 @@
 		            <?php endif; ?>
 		          </div>
 
-					<nav class="nav clearfix">
-						<?php wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
+					<nav class="nav clearfix col-md-6">
+                        <p class="footer-title"><?php bloginfo('name'); ?></p>
+						<?php //wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
+						<?php mr_footer_menu(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 
 <!--					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>-->
+                    <div class="col-md-6">
+                        SOCIAL LINKS <br/>
 
-					<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
+                        <address>
+                            Herbert Pixner<br/>
+                            Dreiheiligestrass 21<br/>
+                            6020 Innsbrcuk
+                        </address>
+                        <address>
+                            <a href="mailto:#">info@herbertpixner.com</a><br/>
+                            <abbr title="Phone">tel:</abbr> 00000000
+                        </address>
+                    </div>
 
 				</div> <!-- end #inner-footer -->
 

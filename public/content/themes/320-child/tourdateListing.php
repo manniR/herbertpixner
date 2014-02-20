@@ -91,6 +91,9 @@ echo '</pre>';*/
 
 ?>
 <?php if($tourdates_query->have_posts()): ?>
+
+
+<!--start accordion-->
 <div class="panel-group" id="accordion">
 <!-- the loop -->
 <?php while( $tourdates_query->have_posts() ) : $tourdates_query->the_post(); ?>
