@@ -23,12 +23,13 @@
         if ($children) { ?>
         <!--responsive nav-->
         <div class="navbar">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div class="collapse navbar-collapse navbar-responsive-collapse">
+            <div class="collapse navbar-collapse navbar-responsive-collapse">-->
+            <div>
             <ul class="nav nav-pills nav-stacked span2">
                 <?php echo $children; ?>
             </ul>
@@ -116,24 +117,36 @@ echo '</pre>';*/
         ?>
 
   <!--START PANELS-->
-<div class="panel panel-default">
-    <div class="panel-heading">
+<div class="panel">
+    <div class="">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#<?php the_ID() ?>">
         <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#<?php the_ID() ?>">
                 <span><?php echo date('d-m-Y',strtotime(get_field('datum', $post->ID)))?></span>
-                      <?php the_title() ?>
-            </a>
+                      <?php the_title() ?><span class="glyphicon glyphicon-plus pull-right"></span>
         </h4>
+            </a>
     </div>
     <div id="<?php the_ID(); ?>" class="panel-collapse collapse">
         <div class="panel-body">
-            <p>Location: <?php echo get_field('location', $post->ID)?></p>
-            <p>Einlass: <?php echo get_field('einlass', $post->ID)?></p>
-            <p>Beginn: <?php echo get_field('beginn', $post->ID)?></p>
-            <p><?php echo (get_field('ausverkauft')? 'AUSVERKAUFT' : '---') ?></p>
-            <p><a href="<?php echo get_field('ticket_link', $post->ID)?>"></a>
-            <?php echo _('Hier online reservieren') ?>
-            </p>
+
+            <dl class="dl-horizontal">
+                <dt>Ort: </dt>
+                <dd><?php echo get_field('location', $post->ID)?></dd>
+                <dt>Einlass: </dt>
+                <dd><?php echo get_field('einlass', $post->ID)?></dd>
+                <dt>Beginn: </dt>
+                <dd><?php echo get_field('beginn', $post->ID)?></dd>
+                <?php $href = get_field('ticket_link', $post->ID); ?>
+             </dl>
+                <?php if ($href): ?>
+             <dl class="dl-horizontal">
+                <dt>Tickets: </dt>
+                <dd><a href="<?php echo $href ?>">
+                        <?php echo _('Hier online reservieren') ?></a></dd>
+              </dl>
+                <?php endif  ?>
+
+            <p><?php echo (get_field('ausverkauft')? 'AUSVERKAUFT' : '') ?></p>
         </div>
     </div>
 </div>
