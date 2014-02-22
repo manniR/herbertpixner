@@ -46,7 +46,7 @@
 
 <?php
 
-//$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 //$today = date('d-m-Y');
 $args= array(
         'post_type' => 'tourdate', // Tell WordPress which post type we want

@@ -418,6 +418,8 @@ add_theme_support( 'custom-header', $args );
 if( !function_exists( "hp_js" ) ) {
     function hp_js(){
 
+        wp_register_style( 'font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css?',array(), null );
+        wp_enqueue_style( 'font-awesome' );
         wp_register_script( 'fittext',
             get_stylesheet_directory_uri() . '/js/jquery.fittext.js',
             array('jquery'),

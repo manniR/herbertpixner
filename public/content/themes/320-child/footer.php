@@ -1,5 +1,8 @@
-			<footer role="contentinfo" class="">
 
+</div> <!-- end #container -->
+
+<footer role="contentinfo" class="">
+    <div class="container">
 				<div id="inner-footer" class="clearfix row">
 
 		          <div id="widget-footer" class="clearfix row">
@@ -19,7 +22,17 @@
 
 <!--					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>-->
                     <div class="col-md-6">
-                        SOCIAL LINKS <br/>
+                        <div class="clearfix">
+                            <span class="fa-stack fa-lg fa-2x pull-right">
+                          <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
+                          <i class="fa fa-facebook fa-stack-1x white"></i>
+                        </span>
+                        <span class="fa-stack fa-lg fa-2x pull-right">
+                          <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
+                          <i class="fa fa-twitter fa-stack-1x white"></i>
+                        </span>
+                        </div>
+                        <div class="text-right">
 
                         <address>
                             Herbert Pixner<br/>
@@ -30,13 +43,13 @@
                             <a href="mailto:#">info@herbertpixner.com</a><br/>
                             <abbr title="Phone">tel:</abbr> 00000000
                         </address>
-                    </div>
+                        </div>
+                    </div> <!--end col-->
 
 				</div> <!-- end #inner-footer -->
 
+</div> <!--end container div-->
 			</footer> <!-- end footer -->
-
-		</div> <!-- end #container -->
 
 		<!--[if lt IE 7 ]>
   			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>

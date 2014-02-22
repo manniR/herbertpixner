@@ -43,14 +43,43 @@
 
 						<header>
 
-							<div class="page-header"><h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1></div>
+<!--							<div class="page-header"><h1 class="page-title" itemprop="headline">--><?php //the_title(); ?><!--</h1></div>-->
 
 						</header> <!-- end article header -->
 
 						<section class="post_content clearfix" itemprop="articleBody">
 							<?php the_content(); ?>
 
+                        <div class="galerie">
+                            <?php
+
+                            $rows = get_field('galeriebilder');
+
+                            if($rows)
+                            {
+                                echo '<ul>';
+
+                                foreach($rows as $row)
+                                {
+
+                                    echo '<pre>';
+                                    var_dump($row['galeriebild'] );
+                                    echo '</pre>';
+
+                                    $image = wp_get_attachment_image_src( $row['galeriebild'], 'thumbnail' );
+                                    echo '<img src="'.$row['galeriebild']['sizes']['medium'].'" />';
+                                    //echo '<li>sub_field_1 = ' . '' .'</li>'; // . ', sub_field_2 = ' . $row['sub_field_2'] .', etc</li>';
+                                }
+
+                                echo '</ul>';
+                            }?>
+
+                        </div>
+
+
 						</section> <!-- end article section -->
+
+
 
 						<footer>
 

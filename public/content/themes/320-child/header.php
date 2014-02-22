@@ -44,7 +44,9 @@
                     <!--header title-->
                         <h1 id="logo">herbert pixner</h1>
 
-				<div class="container">
+		</header> <!-- end header -->
+		<nav>
+        <div class="container">
 
 
                     <!--responsive nav-->
@@ -59,9 +61,9 @@
 					</div>
 					</div>
 
-				</div> <!-- end .container -->
-			</div> <!-- end .navbar -->
+		</div> <!-- end .container -->
 
-		</header> <!-- end header -->
+        </nav>
+
 
 		<div class="container">
