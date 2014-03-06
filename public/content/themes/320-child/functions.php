@@ -337,66 +337,6 @@ function mr_edit_post(){
 }
 
 
-// Add to our admin_init function
-//add_action('save_post', 'myown_save_quick_edit_data');
-
-function myown_save_quick_edit_data($post_id) {
-    // verify if this is an auto save routine.
-    if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
-        return $post_id;
-    // Check permissions
-    if ( 'mytype' == $_POST['post_type'] ) {
-        if ( !current_user_can( 'edit_page', $post_id ) )
-            return $post_id;
-    } else {
-        if ( !current_user_can( 'edit_post', $post_id ) )
-            return $post_id;
-    }
-    // Authentication passed now we save the data
-    if (isset($_POST['myfield']) && ($post->post_type != 'revision')) {
-        $my_fieldvalue = esc_attr($_POST['myfield']);
-        if ($my_fieldvalue)
-            update_post_meta( $post_id, 'myfield', $my_fieldvalue);
-        else
-            delete_post_meta( $post_id, 'myfield');
-    }
-    return $my_fieldvalue;
-}
-
-
-// Add to our admin_init function
-add_action('admin_footer', 'myown_quick_edit_javascript');
-
-function myown_quick_edit_javascript() {
-    global $current_screen;
-    if (($current_screen->post_type != 'mytype')) return;
-
-    ?>
-    <script type="text/javascript">
-        function set_myfield_value(fieldValue, nonce) {
-            // refresh the quick menu properly
-            inlineEditPost.revert();
-            console.log(fieldValue);
-            jQuery('#myfield').val(fieldValue);
-        }
-    </script>
-<?php
-}
-// Add to our admin_init function
-add_filter('post_row_actions', 'myown_expand_quick_edit_link', 10, 2);
-function myown_expand_quick_edit_link($actions, $post) {
-    global $current_screen;
-    if (($current_screen->post_type != 'tourdate'))
-        return $actions;
-    $nonce = wp_create_nonce( 'myfield_'.$post->ID);
-    $myfielvalue = get_post_meta( $post->ID, 'myfield', TRUE);
-    $actions['inline hide-if-no-js'] = '<a href="#" class="editinline" title="';
-    $actions['inline hide-if-no-js'] .= esc_attr( __( 'Edit this item inline' ) ) . '"';
-    $actions['inline hide-if-no-js'] .= " onclick=\"set_myfield_value('{$myfielvalue}')\" >";
-    $actions['inline hide-if-no-js'] .= __( 'Quick Edit' );
-    $actions['inline hide-if-no-js'] .= '</a>';
-    return $actions;
-}
 
 
 /*
@@ -413,6 +353,7 @@ $args = array(
 add_theme_support( 'custom-header', $args );
 
 
+add_action( 'wp_enqueue_scripts', 'theme_styles' );
 
 // enqueue javascript
 if( !function_exists( "hp_js" ) ) {
