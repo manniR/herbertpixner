@@ -53,7 +53,7 @@ function mr_manage_tourdate_columns($column, $post_id)
   switch ($column) {
     case 'tourdate':
       //setlocale (LC_ALL, 'de_DE@euro', 'de_DE', 'de', 'ge');
-      setlocale(LC_TIME, 'de_DE'); //  deutsch Monatsnamen
+      setlocale(LC_ALL, 'de_DE.utf-8'); //  deutsch Monatsnamen
       echo strftime('%d. %B %Y', strtotime(get_field('datum', $post_id)));
       break;
     default:

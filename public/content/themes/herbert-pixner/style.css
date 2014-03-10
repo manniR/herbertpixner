@@ -67,9 +67,40 @@
     font-weight: 800;
 }
 
+/*
+ nav pills correct in Bootstrap min
+*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #000;
+
+}
+
+.nav-pills>li a{
+    font-size: 1.5em;
+    font-weight: 800;
+    padding:0 0 6px 0;
+}
+
+/*BACKGROUND COLORS*/
 .img-fullwidth-bg {background: #465115;}
 .header-image {
     width: 100%;
+}
+
+.header-title-svg{
+    text-align: center;
+    width: 100%;
+    z-index:0;
+    bottom: -7px;
+    position: absolute;
+}
+
+
+.header-title-svg img {
+    width: 70%;
+}
+.relative-position{
+    position: relative;
 }
 
 .header-feature {
@@ -77,14 +108,6 @@
     /*text-align: center;*/
 }
 
-#logo {
-    margin: 0 auto;
-    width: 80%;
-    position: absolute;
-    left: 10%;
-    bottom: -11px;
-    z-index: 0;
-}
 
 /*FOOTER*/
 /* Sticky footer styles */
@@ -96,8 +119,8 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 320px;
 }
-footer {
-    background:#465115;
+body > footer {
+    background:black;
     /*sticks footer to bottom*/
     position: absolute;
     bottom: 0;
@@ -139,15 +162,17 @@ footer .menu{
     color:white;
 }
 footer nav p {
-    margin-left:16px;
-    font-size:0.6em
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 33px 0 22px 0;
 }
 
 #footer-main-menu a {
-    font-size:0.4em;
-    line-height: 1.5em;
     padding:0;
-    /*padding-bottom:0.3em;*/
+}
+
+.socials{
+    margin:33px 0 22px 0;
 }
 
 
@@ -171,6 +196,7 @@ footer nav p {
 }
 
 /*panel open state*/
+.panel-title .glyphicon{margin-right: 11px;}
 .panel-title  span.glyphicon { visibility: hidden;}
 .panel > div > a:hover, .panel > div > a {
     display:block;
@@ -198,6 +224,28 @@ footer nav p {
 }
 
 
+.ausverkauft{
+    font-size: 0.8em;
+    font-weight: 400;
+    color: gray;
+    padding: 3px 11px 0 0;
+}
+
+
+/*
+SIDEBAR
+*/
+
+#sidebar1 .nav{margin-top: 22px}
+
+
+
+
+/*
+ FOOTER COLORS
+*/
+
+.parent-pageid-5 footer{background:#465115;}
 
 
 

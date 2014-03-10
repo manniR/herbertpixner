@@ -42,16 +42,42 @@
 <![endif]-->
 
 <header>
-  <div class="img-fullwidth-bg">
+  <div class="relative-position">
+      <?php if (is_front_page()): ?>
+        <!--front page header -->
+        <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-header.jpg" alt=""/>
+        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner.svg" alt=""/></div>
+
+      <?php else: ?>
+      <?php if(is_page( 'projekt' ) || '5' == $post->post_parent): ?>
+        <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
+        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner-projekt.svg" alt=""/></div>
+      <?php endif; ?>
+      <?php if(is_page( 'offroad' ) || '2' == $post->post_parent): ?>
+        <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-offroad-header210.jpg" alt=""/>
+        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner-offroad.svg" alt=""/></div>
+      <?php endif; ?>
+      <?php if(is_page( 'three-saints-records' ) || '7' == $post->post_parent): ?>
+        <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/three-saints-records-header210.jpg" alt=""/>
+        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/three-saints-records.svg" alt=""/></div>
+      <?php endif; ?>
+
+    <?php endif; ?>
+
+
+
+<?php
+//echo $post->post_parent;
+//echo 'SLUG:::::::' . basename(get_permalink());
+?>
+
+
+</div>
+  </div>
+
   <div class="container header-feature">
-    <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
-
-    <img id="logo" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-logo.svg" alt=""/>
-  </div>
-  </div>
-
   <div class="navbar navbar-default">
-    <div class="container">
+
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -60,14 +86,11 @@
       <!--<a class="navbar-brand" href="#">Project name</a>-->
 
       <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav center-block">
-          <li class="active"><a href="#">projekt</a></li>
-          <li><a href="#about">offroad</a></li>
-          <li><a href="#contact">three saints records</a></li>
-          <li><a href="#contact">shop</a></li>
-        </ul>
+
+            <?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+
       </div>
       <!--/.navbar-collapse -->
-    </div>
+
   </div>
 </header>

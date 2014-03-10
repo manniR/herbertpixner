@@ -1,58 +1,54 @@
-<?php
-/*
- Template Name: Tourdates Listing
-*/
-?>
+<?php get_header(); //get_header_image()?>
 
-<?php get_header(); ?>
+<div class="container">
+    <div id="content" class="clearfix row">
 
-<div id="content" class="clearfix row">
-
-    <div id="sidebar1" class="col-sm-3" role="complementary">
-        <!--SIDE BAR-->
-
-        <?php wp_nav_menu(array('theme_location'=>'hp_side_menu', 'walker'=> new MR_Child_Only_Walker(), 'depth'=>2)) //hp_side_nav(); //get_sidebar(); // sidebar 1 ?>
-
-        <?php //get_sidebar(); // sidebar 1 ?>
-
-        <?php
-        if($post->post_parent)
-            $children = wp_list_pages("title_li=&child_of=".$post->post_parent."&echo=0");
-        else
-            $children = wp_list_pages("title_li=&child_of=".$post->ID."&echo=0");
-        if ($children) { ?>
-        <!--responsive nav-->
-        <div class="navbar">
-            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar-responsive-collapse">-->
-            <div>
-            <ul class="nav nav-pills nav-stacked span2">
-                <?php echo $children; ?>
-            </ul>
-           </div>
+        <div id="sidebar1" class="col-sm-3" role="complementary">
+            <?php require_once('sidebar1.php'); ?>
         </div>
-        <?php } ?>
-
-
-
-    </div> <!--END SIDEBAR tourlisint-->
-
-    <div id="main" class="col-sm-9 clearfix" role="main">
-
-
+        <!--END SIDEBAR-->
+        <div class="col-sm-9 col-xs-12">
+        <div id="main" class="clearfix" role="main">
 <?php
 
-$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-//$today = date('d-m-Y');
-$args= array(
-        'post_type' => 'tourdate', // Tell WordPress which post type we want
-        'orderby' => 'meta_value', // We want to organize the events by date
-        'meta_key' => 'datum', // Grab the "date" field created via "More Fields" plugin (stored in YYYY-MM-DD format)
-        'order' => 'ASC', // ASC is the other option
+
+
+/*
+
+<div class="panel">
+    <div class="">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#100"><div class="row">
+        <div class="col-xs-3"><h4>30-04-2014</h4></div>
+  <div class="col-xs-8"><h4>Tiroler Kulturfrühling Kulturhaus in Dorf Tirol/Südtirol (I)</h4></div>
+  <div class="col-xs-1"><h4><span class="glyphicon glyphicon-plus"></span></h4></div></div></a>
+    </div>
+    <div id="100" class="panel-collapse collapse" style="height: 0px;">
+        <div class="panel-body">
+
+            <dl class="dl-horizontal">
+                <dt>Ort: </dt>
+                <dd>April Tiroler Kulturfrühling Kulturhaus in Dorf Tirol/Südtirol (I)</dd>
+                <dt>Einlass: </dt>
+                <dd>19:30</dd>
+                <dt>Beginn: </dt>
+                <dd>20:30</dd>
+                             </dl>
+
+        </div>
+    </div>
+</div>
+
+
+*/
+
+
+
+          $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+          $args= array(
+          'post_type' => 'tourdate', // Tell WordPress which post type we want
+          'orderby' => 'meta_value', // We want to organize the events by date
+          'meta_key' => 'datum', // Grab the "date" field created via "More Fields" plugin (stored in YYYY-MM-DD format)
+          'order' => 'ASC', // ASC is the other option
         'posts_per_page' => '-1', // Let's show them all.
         'meta_query' => array( // WordPress has all the results, now, return only the events after today's date
             array(
@@ -62,53 +58,22 @@ $args= array(
                 'type' => 'DATE' // Let WordPress know we're working with numbers
             )
         )
-       /* 'tax_query' => array( // Return only concerts (event-types) and events where "songs-of-ascent" is performing
-            array(
-                'taxonomy' => 'event-types',
-                'field' => 'slug',
-                'terms' => 'concert',
-            ),
-            array(
-                'taxonomy' => 'speakers',
-                'field' => 'slug',
-                'terms' => 'songs-of-ascent',
-            )
-    )
-
-        )*/
-
-
 );
 $m=array("","");
 $tourdates_query = new WP_Query($args);
 /** @var $wpdb wpdb */
-
 global $wpdb;
-/*echo '<pre>';
-var_dump($wpdb->get_caller());
-echo '</pre>';*/
-
-
 ?>
 <?php if($tourdates_query->have_posts()): ?>
-
 
 <!--start accordion-->
 <div class="panel-group" id="accordion">
 <!-- the loop -->
 <?php while( $tourdates_query->have_posts() ) : $tourdates_query->the_post(); ?>
 
-
 <?php
-//setlocale (LC_ALL, 'de_DE@euro', 'de_DE', 'de', 'ge');
-        setlocale(LC_TIME, 'de_DE');//  deutsch Monatsnamen
-
-//        $date = new DateTime(get_field('datum',$post->ID));
-        //    echo $month = $date->format('m');
-//         $date->format('Y-m-d');
-
-        $datum = strftime('%d. %B %Y',strtotime(get_field('datum',$post->ID))); // deutsche monatsnamen
-        //$datum = strftime('%d. %B %Y',$date->getTimestamp());
+        setlocale(LC_ALL, 'de_DE.utf-8');//  deutsche Monatsnamen
+        $datum = strftime('%d. %B %Y',strtotime(get_field('datum',$post->ID)));
         $m[0] = explode(' ',$datum)[1];
 
         if ($m[0] != $m[1]){
@@ -116,8 +81,7 @@ echo '</pre>';*/
             echo '<h3>' . $m[0]. ' ' . explode(' ',$datum)[2] . '</h3>';
             $m[1] = $m[0];
         }
-        //echo explode(' ',$datum)[1] || "" ? explode(' ',$datum)[1] : "00";
-        ?>
+?>
 
   <!--START PANELS-->
 <div class="panel">
@@ -126,6 +90,7 @@ echo '</pre>';*/
         <h4 class="panel-title">
                 <span><?php echo date('d-m-Y',strtotime(get_field('datum', $post->ID)))?></span>
                       <?php the_title() ?><span class="glyphicon glyphicon-plus pull-right"></span>
+            <?php echo (get_field('ausverkauft')? '<span class="ausverkauft pull-right">AUSVERKAUFT</span>' : '') ?>
         </h4>
             </a>
     </div>
@@ -149,14 +114,9 @@ echo '</pre>';*/
               </dl>
                 <?php endif  ?>
 
-            <p><?php echo (get_field('ausverkauft')? 'AUSVERKAUFT' : '') ?></p>
         </div>
     </div>
 </div>
-
-
-
-
 
 <?php endwhile ?>
 
@@ -171,12 +131,11 @@ echo '</pre>';*/
 <p> <?php _e( 'Sorry, no tourdates where found'); ?></p>
 <?php endif; ?>
 
-
+    </div>
+    </div>
     </div> <!-- end #main -->
 
 </div> <!-- end #content -->
-
-
 
 <?php get_footer(); ?>
 

@@ -12,34 +12,35 @@
 		            <?php endif; ?>
 		          </div>
 
-      <nav class="nav clearfix col-md-6">
-        <p class="footer-title"><?php bloginfo('name'); ?></p>
+      <nav class="nav clearfix col-xs-6">
+        <p class="footer-title">herbert pixner</p>
         <?php //wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
         <?php mr_footer_menu(); // Adjust using Menus in Wordpress Admin ?>
       </nav>
 
       <!--					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>-->
-      <div class="col-md-6">
-        <div class="clearfix">
-                            <span class="fa-stack fa-lg fa-2x pull-right">
+      <div class="col-xs-6">
+        <div class="clearfix socials">
+
+                        <a href="https://de-de.facebook.com/herbertpixnerprojekt" style="color:white;"><span class="fa-stack fa-lg fa-2x pull-right">
                           <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
                           <i class="fa fa-facebook fa-stack-1x white"></i>
-                        </span>
-                        <span class="fa-stack fa-lg fa-2x pull-right">
+                        </span></a>
+                        <a href="https://twitter.com/HerbertPixner" style="color:white;"><span class="fa-stack fa-lg fa-2x pull-right">
                           <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
                           <i class="fa fa-twitter fa-stack-1x white"></i>
-                        </span>
+                        </span></a>
         </div>
         <div class="text-right">
 
           <address>
             Herbert Pixner<br/>
-            Dreiheiligestrass 21<br/>
-            6020 Innsbrcuk
+            Dreiheiligenstrasse 21<br/>
+            6020 Innsbruck
           </address>
           <address>
-            <a href="mailto:#">info@herbertpixner.com</a><br/>
-            <abbr title="Phone">tel:</abbr> 00000000
+            <a href="mailto:#">info@herbert-pixner.com</a><br/>
+
           </address>
         </div>
       </div> <!--end col-->
