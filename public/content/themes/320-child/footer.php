@@ -14,14 +14,14 @@
 		            <?php endif; ?>
 		          </div>
 
-					<nav class="nav clearfix col-md-6">
+					<nav class="nav clearfix col-xs-6">
                         <p class="footer-title"><?php bloginfo('name'); ?></p>
 						<?php //wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 						<?php mr_footer_menu(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 
 <!--					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>-->
-                    <div class="col-md-6">
+                    <div class="col-xs-6">
                         <div class="clearfix">
                             <span class="fa-stack fa-lg fa-2x pull-right">
                           <!--<i class="fa fa-square-o fa-stack-2x"></i>-->

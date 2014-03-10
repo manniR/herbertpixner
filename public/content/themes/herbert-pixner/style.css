@@ -1,0 +1,262 @@
+/*
+ Theme Name:   herbert-pixner
+ Theme URI:    ..
+ Description:  Responsive Theme based on Twitter Bootstrap Theme
+ Author:       MR
+ Author URI:   http://manfredraggl.com
+ Template:
+ Version:      1.0.0
+ Tags:         responsive-layout
+ Text Domain:  herbert-pixner
+*/
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*COLORS*/
+.gray {color: #808285}
+.green{color: #465115}
+
+
+
+/*hide subnav on smaller screens and show on collapsed menu*/
+@media screen and (max-width: 765px) {
+
+    #sidebar1 {display:none;}
+}
+
+
+/*center navbar*/
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 22px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 44px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .navbar-default {
+        margin-top: 22px;
+        font-size: 2.2em !important;
+        font-weight: 800;
+    }
+}
+
+.navbar-default {
+    margin-top: 22px;
+
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+/*
+ nav pills correct in Bootstrap min
+*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #000;
+
+}
+
+.nav-pills>li a{
+    font-size: 1.5em;
+    font-weight: 800;
+    padding:0 0 6px 0;
+}
+
+/*BACKGROUND COLORS*/
+.img-fullwidth-bg {background: #465115;}
+.header-image {
+    width: 100%;
+}
+
+.header-title-svg{
+    text-align: center;
+    width: 100%;
+    z-index:0;
+    bottom: -7px;
+    position: absolute;
+}
+
+
+.header-title-svg img {
+    width: 70%;
+}
+.relative-position{
+    position: relative;
+}
+
+.header-feature {
+    position: relative;
+    /*text-align: center;*/
+}
+
+
+/*FOOTER*/
+/* Sticky footer styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 320px;
+}
+body > footer {
+    background:black;
+    /*sticks footer to bottom*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 320px;
+    /*set full width bg-color if necesarry*/
+}
+
+
+
+/*extends footer to bottom*/
+#container > footer{
+    /*box-shadow: 0px 500px 0px 500px #000;*/
+}
+#inner-footer{
+    height: 320px; /*sets headerheight!*/
+    margin:0 auto;
+    /*background: black;*/
+    color:white;
+}
+#inner-footer a{
+    color:#efefef;
+}
+.footer-links{
+    float:none;
+}
+
+footer .menu{
+    padding:0;
+}
+#inner-footer a{
+    color:gray;
+}
+
+
+#inner-footer .nav a:hover, #inner-footer .nav li.active a, #inner-footer .nav li.active a:hover, #inner-footer .nav li{
+    background:transparent;
+    color:white;
+}
+footer nav p {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 33px 0 22px 0;
+}
+
+#footer-main-menu a {
+    padding:0;
+}
+
+.socials{
+    margin:33px 0 22px 0;
+}
+
+
+
+/*ACCORDION*/
+.panel {
+    border-radius:0;
+    border:0;
+    box-shadow: 0 0 0;
+
+}
+.panel  a{
+    color:black;
+}
+.panel h4 {
+    padding:1em 0;
+}
+.panel-title span:first-child{
+    padding-right:2em;
+    padding-left:1em;
+}
+
+/*panel open state*/
+.panel-title .glyphicon{margin-right: 11px;}
+.panel-title  span.glyphicon { visibility: hidden;}
+.panel > div > a:hover, .panel > div > a {
+    display:block;
+    background:#fff;
+    text-decoration:none;
+}
+/*panel close state*/
+.panel > div > .collapsed > .panel-title span.glyphicon { visibility: visible;}
+.panel > div > .collapsed {
+    background:#efefef;
+}
+
+/*panel expandable content*/
+.panel-body{
+    margin-left:8.6em;
+    background:#fff;
+}
+.dl-horizontal dd{
+    margin-left: 80px;
+}
+.dl-horizontal dt{
+    float:left;
+    text-align: left;
+    width: 80px;
+}
+
+
+.ausverkauft{
+    font-size: 0.8em;
+    font-weight: 400;
+    color: gray;
+    padding: 3px 11px 0 0;
+}
+
+
+/*
+SIDEBAR
+*/
+
+#sidebar1 .nav{margin-top: 11px}
+
+
+
+
+/*
+ FOOTER COLORS
+*/
+
+.parent-pageid-5 footer{background:#465115;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
