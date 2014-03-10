@@ -18,23 +18,23 @@
   <!-- Example row of columns -->
   <div class="row">
     <div class="col-sm-3 col-xs-12">
-      <a href="img/01.jpg" class="gallery">
-        <img class="thumbnail img-responsive" src="img/01_thumb.jpg" alt="...">
+      <a href="<?= get_stylesheet_directory_uri() ?>/img/01.jpg" class="gallery">
+        <img class="thumbnail img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/01_thumb.jpg" alt="...">
       </a>
     </div>
     <div class="col-sm-3 col-xs-12">
-      <a href="img/02.jpg" class="gallery ">
-        <img class="thumbnail img-responsive" src="img/02_thumb.jpg" alt="...">
+      <a href="<?= get_stylesheet_directory_uri() ?>/img/02.jpg" class="gallery ">
+        <img class="thumbnail img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/02_thumb.jpg" alt="...">
       </a>
     </div>
     <div class="col-sm-3 col-xs-12">
-      <a href="img/03.jpg" class="gallery ">
-        <img class="thumbnail img-responsive" src="img/03_thumb.jpg" alt="...">
+      <a href="<?= get_stylesheet_directory_uri() ?>/img/03.jpg" class="gallery ">
+        <img class="thumbnail img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/03_thumb.jpg" alt="...">
       </a>
     </div>
     <div class="col-sm-3 col-xs-12">
-      <a href="img/04.jpg" class="gallery ">
-        <img class="thumbnail img-responsive" src="img/04_thumb.jpg" alt="...">
+      <a href="<?= get_stylesheet_directory_uri() ?>/img/04.jpg" class="gallery ">
+        <img class="thumbnail img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/04_thumb.jpg" alt="...">
       </a>
     </div>
   </div>
@@ -77,30 +77,4 @@
 
 <hr>
 
-<footer>
-  <p>&copy; Company 2013</p>
-</footer>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/jquery.lightbox.min.js"></script>
-
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-
-<script>
-  var _gaq = [
-    ['_setAccount', 'UA-XXXXX-X'],
-    ['_trackPageview']
-  ];
-  (function (d, t) {
-    var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-    g.src = '//www.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g, s)
-  }(document, 'script'));
-</script>
-</body>
-</html>
+<?php get_footer(); ?>

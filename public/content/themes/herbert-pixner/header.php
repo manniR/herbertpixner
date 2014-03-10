@@ -42,11 +42,12 @@
 <![endif]-->
 
 <header>
+  <div class="img-fullwidth-bg">
   <div class="container header-feature">
-    <img class="header-image img-responsive" src="img/herbert-pixner-header.jpg" alt=""/>
+    <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
 
-    <img id="logo" src="img/herbert-pixner-logo.svg" alt=""/>
-
+    <img id="logo" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-logo.svg" alt=""/>
+  </div>
   </div>
 
   <div class="navbar navbar-default">
@@ -60,7 +61,7 @@
 
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav center-block">
-          <li class="active"><a href="#">project</a></li>
+          <li class="active"><a href="#">projekt</a></li>
           <li><a href="#about">offroad</a></li>
           <li><a href="#contact">three saints records</a></li>
           <li><a href="#contact">shop</a></li>

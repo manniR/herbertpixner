@@ -85,12 +85,16 @@ add_theme_support('custom-header', $args);
 
 //THEME STYLES
 if (!function_exists("theme_styles")) {
-  function theme_scripts(){
-    wp_register_style('boostrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css?', array(), null);
+  function theme_styles(){
+    wp_register_style('bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css?', array(), null);
+    wp_register_style('theme_style', get_stylesheet_directory_uri() . '/style.css?', array(), null);
+    wp_register_style('jquery_lightbox', get_stylesheet_directory_uri() . '/css/jquery.lightbox.min.css', array(), null);
     wp_register_style('font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css?', array(), null);
 
     wp_enqueue_style('bootstrap');
+    wp_enqueue_style('theme_style');
     wp_enqueue_style('font-awesome');
+    wp_enqueue_style('jquery_lightbox');
   }
 }
 
@@ -100,10 +104,11 @@ add_action('wp_enqueue_scripts', 'theme_styles');
 if (!function_exists("theme_scripts")) {
   function theme_scripts()
   {
-    wp_register_script('modernizer',get_stylesheet_directory_uri() . '/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js', array('jquery'), '1.2');
-    wp_register_script('bootstrap-js',get_stylesheet_directory_uri() . '/js/vendor/bootstrap.min.js', array('jquery'), '1.2');
-    wp_register_script('jquery-lightbox',get_stylesheet_directory_uri() . '/js/jquery.lightbox.js', array('jquery'), '1.2');
-    wp_register_script('fittext',get_stylesheet_directory_uri() . '/js/jquery.fittext.js', array('jquery'), '1.2');
+    wp_register_script('modernizer',get_stylesheet_directory_uri() . '/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js', array('jquery'), null, true);
+    wp_register_script('bootstrap-js',get_stylesheet_directory_uri() . '/js/vendor/bootstrap.min.js', array('jquery'), null, true);
+    wp_register_script('jquery-lightbox',get_stylesheet_directory_uri() . '/js/jquery.lightbox.min.js', array('jquery'), null, true);
+    wp_register_script('main',get_stylesheet_directory_uri() . '/js/main.js', array('jquery', 'jquery-lightbox'), null, true);
+    wp_register_script('fittext',get_stylesheet_directory_uri() . '/js/jquery.fittext.js', array('jquery'), null, true);
 
     wp_enqueue_script('modernizer');
     wp_enqueue_script('bootstrap-js');

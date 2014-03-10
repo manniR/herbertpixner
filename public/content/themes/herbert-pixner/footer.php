@@ -1,4 +1,5 @@
 <footer role="contentinfo" class="">
+  <div class="black">
   <div class="container">
     <div id="inner-footer" class="clearfix row">
 
@@ -46,6 +47,7 @@
     </div> <!-- end #inner-footer -->
 
   </div> <!--end container div-->
+  </div>
 </footer> <!-- end footer -->
 
 <!--[if lt IE 7 ]>

@@ -4,15 +4,21 @@
  Description:  Responsive Theme based on Twitter Bootstrap Theme
  Author:       MR
  Author URI:   http://manfredraggl.com
- Template:     
+ Template:
  Version:      1.0.0
  Tags:         responsive-layout
- Text Domain:  herbert-pixner 
+ Text Domain:  herbert-pixner
 */
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/*COLORS*/
+.gray {color: #808285}
+.green{color: #465115}
+
+
 
 /*hide subnav on smaller screens and show on collapsed menu*/
 @media screen and (max-width: 765px) {
@@ -45,11 +51,23 @@
     }
 }
 
+
+@media (min-width: 1200px) {
+    .navbar-default {
+        margin-top: 22px;
+        font-size: 2.2em !important;
+        font-weight: 800;
+    }
+}
+
 .navbar-default {
-    font-size: 1.7em;
+    margin-top: 22px;
+
+    font-size: 1.8em;
     font-weight: 800;
 }
 
+.img-fullwidth-bg {background: #465115;}
 .header-image {
     width: 100%;
 }
@@ -65,7 +83,7 @@
     position: absolute;
     left: 10%;
     bottom: -11px;
-    z-index: 11111;
+    z-index: 0;
 }
 
 /*FOOTER*/
@@ -76,15 +94,16 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 120px;
+    margin-bottom: 320px;
 }
 footer {
+    background:#465115;
     /*sticks footer to bottom*/
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 120px;
+    height: 320px;
     /*set full width bg-color if necesarry*/
 }
 
@@ -97,7 +116,7 @@ footer {
 #inner-footer{
     height: 320px; /*sets headerheight!*/
     margin:0 auto;
-    background: black;
+    /*background: black;*/
     color:white;
 }
 #inner-footer a{
@@ -123,7 +142,6 @@ footer nav p {
     margin-left:16px;
     font-size:0.6em
 }
-
 
 #footer-main-menu a {
     font-size:0.4em;
