@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="238" column="29" selection-start="4010" selection-end="4010" vertical-scroll-proportion="0.51528776" vertical-offset="5615" max-vertical-offset="6968">
+            <state line="188" column="1" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0" vertical-offset="4576" max-vertical-offset="6968">
               <folding />
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0" vertical-offset="2158" max-vertical-offset="2548">
+            <state line="9" column="22" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2548">
               <folding />
             </state>
           </provider>
@@ -85,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tourdateListing.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tourdateListing.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3874">
+            <state line="42" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.9820144" vertical-offset="0" max-vertical-offset="3874">
               <folding>
                 <element signature="e#375#1264#0" expanded="true" />
               </folding>
@@ -347,6 +347,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -413,7 +414,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23373984" sideWeight="0.853257" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23373984" sideWeight="0.853257" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -585,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0" vertical-offset="2158" max-vertical-offset="2548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="22" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1768">
@@ -613,19 +607,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3874">
-          <folding>
-            <element signature="e#375#1264#0" expanded="true" />
-          </folding>
+        <state line="188" column="1" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0" vertical-offset="4576" max-vertical-offset="6968">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="29" selection-start="4010" selection-end="4010" vertical-scroll-proportion="0.51528776" vertical-offset="5615" max-vertical-offset="6968">
+        <state line="9" column="22" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2548">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.9820144" vertical-offset="0" max-vertical-offset="3874">
+          <folding>
+            <element signature="e#375#1264#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
