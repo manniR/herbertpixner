@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c49daff9-8022-4810-a9c3-ad53304bf2e8" name="Default" comment="" />
+    <list default="true" id="142df839-39e4-4dfc-b257-5ec8fc092f1c" name="Default" comment="" />
     <ignored path="herbertpixner.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,84 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="188" column="1" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0" vertical-offset="4576" max-vertical-offset="6968">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="40" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1820">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="379" column="9" selection-start="9084" selection-end="9084" vertical-scroll-proportion="0.0" vertical-offset="9854" max-vertical-offset="10348">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2548">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1768">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="5148">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="30" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="1430" max-vertical-offset="3978">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tourdateListing.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.9820144" vertical-offset="0" max-vertical-offset="3874">
-              <folding>
-                <element signature="e#375#1264#0" expanded="true" />
-              </folding>
+            <state line="30" column="39" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.20503597" vertical-offset="552" max-vertical-offset="3042">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="3658" selection-end="3658" vertical-scroll-proportion="0.0" vertical-offset="2418" max-vertical-offset="2626">
+            <state line="235" column="7" selection-start="3976" selection-end="3976" vertical-scroll-proportion="0.0" vertical-offset="5778" max-vertical-offset="6968">
               <folding />
             </state>
           </provider>
@@ -115,24 +50,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/library/bones.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/sidebar1.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing--.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/index.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/library/admin.php" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/styles.css" />
-        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css" />
         <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
+    <option name="x" value="47" />
     <option name="y" value="22" />
     <option name="width" value="1476" />
     <option name="height" value="1177" />
@@ -163,7 +88,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,20 +116,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev.herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -251,66 +161,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="herbert-pixner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev.herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbert-pixner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev.herbertpixner.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herbert-pixner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,10 +188,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -349,29 +200,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/content/themes/herbert-pixner" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -394,38 +223,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c49daff9-8022-4810-a9c3-ad53304bf2e8" name="Default" comment="" />
-      <created>1394438132211</created>
-      <updated>1394438132211</updated>
+      <changelist id="142df839-39e4-4dfc-b257-5ec8fc092f1c" name="Default" comment="" />
+      <created>1394489211502</created>
+      <updated>1394489211502</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="22" width="1476" height="1177" extended-state="0" />
-    <editor active="true" />
+    <frame x="47" y="22" width="1476" height="1177" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1974026" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21038961" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2972007" sideWeight="0.14674301" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23373984" sideWeight="0.853257" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21883468" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18292683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299458" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -447,186 +269,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="0" selection-start="3484" selection-end="3484" vertical-scroll-proportion="0.0" vertical-offset="5564" max-vertical-offset="5720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1820">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="9" selection-start="9084" selection-end="9084" vertical-scroll-proportion="0.0" vertical-offset="9854" max-vertical-offset="10348">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.0" vertical-offset="2366" max-vertical-offset="3120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="1023" selection-end="1025" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="5174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="30" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="1430" max-vertical-offset="3978">
+        <state line="235" column="7" selection-start="3976" selection-end="3976" vertical-scroll-proportion="0.0" vertical-offset="5778" max-vertical-offset="6968">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="65" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0" vertical-offset="1664" max-vertical-offset="4940">
-          <folding>
-            <element signature="e#375#1264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2556" selection-end="2556" vertical-scroll-proportion="0.0" vertical-offset="1846" max-vertical-offset="2028">
+        <state line="30" column="39" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.20503597" vertical-offset="552" max-vertical-offset="3042">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/library/bones.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="3454" selection-end="3557" vertical-scroll-proportion="0.21787296" vertical-offset="1603" max-vertical-offset="5642" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/bones.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="4" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.84638107" vertical-offset="674" max-vertical-offset="2054" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.13441655" vertical-offset="0" max-vertical-offset="2054" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/front-page--.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1354" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="21" selection-start="955" selection-end="3266" vertical-scroll-proportion="0.0" vertical-offset="1766" max-vertical-offset="3120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/menus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/page-programm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1354" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="728" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1950" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/tourdateListing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="9" selection-start="9084" selection-end="9084" vertical-scroll-proportion="0.0" vertical-offset="8864" max-vertical-offset="10218">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/320-child/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1820">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="3658" selection-end="3658" vertical-scroll-proportion="0.0" vertical-offset="2418" max-vertical-offset="2626">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="22" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="5148">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="30" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="806" max-vertical-offset="3848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="1" selection-start="3151" selection-end="3151" vertical-scroll-proportion="0.0" vertical-offset="4576" max-vertical-offset="6968">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.9820144" vertical-offset="0" max-vertical-offset="3874">
-          <folding>
-            <element signature="e#375#1264#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -11,44 +11,12 @@
         <div id="main" class="clearfix" role="main">
 <?php
 
-
-
-/*
-
-<div class="panel">
-    <div class="">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#100"><div class="row">
-        <div class="col-xs-3"><h4>30-04-2014</h4></div>
-  <div class="col-xs-8"><h4>Tiroler Kulturfrühling Kulturhaus in Dorf Tirol/Südtirol (I)</h4></div>
-  <div class="col-xs-1"><h4><span class="glyphicon glyphicon-plus"></span></h4></div></div></a>
-    </div>
-    <div id="100" class="panel-collapse collapse" style="height: 0px;">
-        <div class="panel-body">
-
-            <dl class="dl-horizontal">
-                <dt>Ort: </dt>
-                <dd>April Tiroler Kulturfrühling Kulturhaus in Dorf Tirol/Südtirol (I)</dd>
-                <dt>Einlass: </dt>
-                <dd>19:30</dd>
-                <dt>Beginn: </dt>
-                <dd>20:30</dd>
-                             </dl>
-
-        </div>
-    </div>
-</div>
-
-
-*/
-
-
-
-          $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-          $args= array(
-          'post_type' => 'tourdate', // Tell WordPress which post type we want
-          'orderby' => 'meta_value', // We want to organize the events by date
-          'meta_key' => 'datum', // Grab the "date" field created via "More Fields" plugin (stored in YYYY-MM-DD format)
-          'order' => 'ASC', // ASC is the other option
+$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+$args= array(
+        'post_type' => 'tourdate', // Tell WordPress which post type we want
+        'orderby' => 'meta_value', // We want to organize the events by date
+        'meta_key' => 'datum', // Grab the "date" field created via "More Fields" plugin (stored in YYYY-MM-DD format)
+        'order' => 'ASC', // ASC is the other option
         'posts_per_page' => '-1', // Let's show them all.
         'meta_query' => array( // WordPress has all the results, now, return only the events after today's date
             array(
