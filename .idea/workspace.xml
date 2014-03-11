@@ -209,8 +209,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="336" />
-    <option name="y" value="40" />
+    <option name="x" value="299" />
+    <option name="y" value="111" />
     <option name="width" value="1679" />
     <option name="height" value="1419" />
   </component>
@@ -410,6 +410,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -463,7 +464,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="336" y="40" width="1679" height="1419" extended-state="0" />
+    <frame x="299" y="111" width="1679" height="1419" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19756621" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
