@@ -7,8 +7,8 @@
             <?php require_once('sidebar1.php'); ?>
         </div>
         <!--END SIDEBAR-->
-        <div class="col-xs-9">
-        <div id="main" class="col-sm-12 clearfix" role="main">
+        <div class="col-sm-9 col-xs-12">
+        <div id="main" class="clearfix" role="main">
 <?php
 
 $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
