@@ -191,12 +191,16 @@ footer nav p {
     padding:1em 0;
 }
 .panel-title span:first-child{
-    padding-right:2em;
-    padding-left:1em;
+    padding-right:0.5em;
+    /*padding-left:1em;*/
 }
 
+
+.listing > hr {margin:0;}
+
+
 /*panel open state*/
-.panel-title .glyphicon{margin-right: 11px;}
+.panel-title .glyphicon{margin-right: 11px;color:slategray;}
 .panel-title  span.glyphicon { visibility: hidden;}
 .panel > div > a:hover, .panel > div > a {
     display:block;
@@ -206,7 +210,7 @@ footer nav p {
 /*panel close state*/
 .panel > div > .collapsed > .panel-title span.glyphicon { visibility: visible;}
 .panel > div > .collapsed {
-    background:#efefef;
+    /*background:#efefef;*/
 }
 
 /*panel expandable content*/
