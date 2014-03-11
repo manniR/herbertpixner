@@ -35,7 +35,7 @@ global $wpdb;
 <?php if($tourdates_query->have_posts()): ?>
 
 <!--start accordion-->
-<div class="panel-group" id="accordion">
+<div class="panel-group listing" id="accordion">
 <!-- the loop -->
 <?php while( $tourdates_query->have_posts() ) : $tourdates_query->the_post(); ?>
 
@@ -46,7 +46,8 @@ global $wpdb;
 
         if ($m[0] != $m[1]){
             //neues MONAT
-            echo '<h3>' . $m[0]. ' ' . explode(' ',$datum)[2] . '</h3>';
+
+            echo '<hr/><h3>' . $m[0]. ' ' . explode(' ',$datum)[2] . '</h3>';
             $m[1] = $m[0];
         }
 ?>
@@ -57,7 +58,7 @@ global $wpdb;
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#<?php the_ID() ?>">
         <h4 class="panel-title">
                 <span><?php echo date('d-m-Y',strtotime(get_field('datum', $post->ID)))?></span>
-                      <?php the_title() ?><span class="glyphicon glyphicon-plus pull-right"></span>
+                      <?php the_title() ?><span class="glyphicon glyphicon-info-sign pull-right"></span>
             <?php echo (get_field('ausverkauft')? '<span class="ausverkauft pull-right">AUSVERKAUFT</span>' : '') ?>
         </h4>
             </a>
@@ -85,6 +86,7 @@ global $wpdb;
         </div>
     </div>
 </div>
+  <hr/>
 
 <?php endwhile ?>
 
