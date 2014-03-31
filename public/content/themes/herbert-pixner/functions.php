@@ -11,6 +11,7 @@ require_once('library/admin.php');
 require_once('library/menus.php');
 require_once('library/extras.php');
 require_once('library/helper.php');
+require_once('library/wp_bootstrap_navwalker.php');
 
 
 
@@ -118,20 +119,7 @@ if (!function_exists("theme_scripts")) {
 add_action('wp_enqueue_scripts', 'theme_scripts');
 
 
-function mr_footer_menu()
-{
-  // display the wp3 menu if available
-  wp_nav_menu(
-    array(
-      'menu' => 'footer_links', /* menu name */
-      'menu_class' => 'nav nav-stacked nav-pills', /*menu class*/
-      'menu_id' => 'footer-main-menu',
-      'theme_location' => 'footer_links', /* where in the theme it's assigned */
-      'container_class' => 'footer-links clearfix', /* container class */
-      'fallback_cb' => 'wp_bootstrap_footer_links_fallback' /* menu fallback */
-    )
-  );
-}
+
 
 
 // Disable jump in 'read more' link
@@ -188,5 +176,27 @@ You can change the names and dimensions to whatever
 you like. Enjoy!
 */
 
+
+class UL_Submenu_Walker extends Walker_Nav_Menu {
+		private $hidden = false;
+
+		function start_lvl( &$output, $depth = 0, $args = array() ) {
+				if($depth == 0) {
+						$style = $this->hidden ? "" : "display:none;";
+				}
+				$indent = str_repeat("\t", $depth);
+				$output .= "<ul class=\"submenu-".$depth."\" style='".$style."'>";
+		}
+
+		function start_el( &$output, $item, $depth=0, $args = array(), $id = 0 ) {
+
+				$classes = empty( $item->classes ) ? array() : (array) $item->classes;
+				echo '<pre>';
+				var_dump();
+				echo '</pre>';
+
+				parent::start_el($output, $item, $depth, $args);
+		}
+}
 
 

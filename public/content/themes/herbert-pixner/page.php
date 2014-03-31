@@ -27,9 +27,9 @@
 
                     <div class="galerie">
                         <?php
-
+												// Bildergalerie
                         $rows = get_field('galeriebilder');
-                        echo count($rows[0]);
+                        //echo count($rows[0]);
 
                                /* echo '<pre>';
                                 var_dump($rows[0]);

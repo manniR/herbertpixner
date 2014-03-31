@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1685abed-290e-4907-93b6-c72ef2847943" name="Default" comment="" />
+    <list default="true" id="f4f15295-3e15-4b75-8b8a-66965fbbb10e" name="Default" comment="" />
     <ignored path="herbertpixner.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,23 +17,101 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="herbertpixner.com" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1960">
+              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+              <folding>
+                <marker date="1396239977000" expanded="true" signature="66:2773" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="106:2749" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="169:223" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="273:2741" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="456:2200" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="544:730" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="854:1892" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="941:1863" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="1964:2132" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="2319:2708" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="2344:2440" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="2487:2634" placeholder="..." />
+                <marker date="1396239977000" expanded="true" signature="2659:2685" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state line="217" column="17" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="4315" max-vertical-offset="5440">
-=======
-            <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="5440">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-=======
-            <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="5440">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
+            <state vertical-scroll-proportion="0.1462307" vertical-offset="2379" max-vertical-offset="5680">
+              <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor-style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/editor-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1580">
+              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="2620">
+              <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+              <folding>
+                <marker date="1396243602000" expanded="true" signature="1418:1666" placeholder="..." />
+                <marker date="1396243602000" expanded="true" signature="1511:1537" placeholder="..." />
+                <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
+                <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
+                <marker date="1396243602000" expanded="true" signature="1723:2128" placeholder="..." />
+                <marker date="1396243602000" expanded="true" signature="3793:4319" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar1.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/sidebar1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <marker date="1394472911000" expanded="true" signature="512:627" placeholder="..." />
+                <marker date="1394472911000" expanded="true" signature="565:616" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menus.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/menus.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="505" max-vertical-offset="3260">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -42,41 +120,18 @@
       <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state line="105" column="4" selection-start="3003" selection-end="3812" vertical-scroll-proportion="0.0" vertical-offset="2748" max-vertical-offset="3860">
-=======
-            <state line="44" column="42" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.6557377" vertical-offset="280" max-vertical-offset="2400">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-=======
-            <state line="44" column="42" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.6557377" vertical-offset="280" max-vertical-offset="2400">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
+            <state vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="4060">
+              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wp.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/conf/wp.php">
+      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2220">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.76258993" vertical-offset="848" max-vertical-offset="1960">
-=======
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-=======
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
+            <state vertical-scroll-proportion="0.0" vertical-offset="70933" max-vertical-offset="101520">
+              <caret line="3571" column="9" selection-start-line="3571" selection-start-column="9" selection-end-line="3571" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -92,25 +147,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/public/site/wp-includes/nav-menu-template.php" />
+        <option value="$PROJECT_DIR$/config/wordpress.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/library/wp_bootstrap_navwalker.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320press/functions.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/320press/header.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/styles.css" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/library/menus.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/editor-style.css" />
+        <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php" />
         <option value="$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <option name="x" value="181" />
+    <option name="x" value="962" />
     <option name="y" value="22" />
-    <option name="width" value="1476" />
-    <option name="height" value="1177" />
-=======
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-    <option name="x" value="267" />
-    <option name="y" value="181" />
-    <option name="width" value="1679" />
-    <option name="height" value="980" />
+    <option name="width" value="958" />
+    <option name="height" value="1178" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -133,7 +191,6 @@
         </selected-state>
       </profile-state>
     </entry>
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -149,7 +206,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -161,6 +218,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,123 +317,115 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herbertpixner.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev.herbertpixner.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herbertpixner.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev.herbertpixner.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="false" />
-<<<<<<< HEAD
-=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/site" />
+    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-<<<<<<< HEAD
-    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../freiestheater.at" />
-=======
-<<<<<<< HEAD
-    <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.CSS" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-=======
->>>>>>> efd72d15209a8185fa170d81273ee3b277084aee
->>>>>>> f30db1c9e360972deedad083383a177128f69026
-<<<<<<< HEAD
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1685abed-290e-4907-93b6-c72ef2847943" name="Default" comment="" />
-      <created>1394548134619</created>
-      <updated>1394548134619</updated>
+      <changelist id="f4f15295-3e15-4b75-8b8a-66965fbbb10e" name="Default" comment="" />
+      <created>1395606025682</created>
+      <updated>1395606025682</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <frame x="181" y="22" width="1476" height="1177" extended-state="0" />
-    <editor active="true" />
-    <layout>
-=======
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-    <frame x="267" y="181" width="1679" height="980" extended-state="0" />
+    <frame x="962" y="22" width="958" height="1178" extended-state="0" />
     <editor active="false" />
     <layout>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13408305" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3184282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45615867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-=======
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21038961" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32999283" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
->>>>>>> f30db1c9e360972deedad083383a177128f69026
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19118524" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22811197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32999283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-=======
->>>>>>> efd72d15209a8185fa170d81273ee3b277084aee
->>>>>>> f30db1c9e360972deedad083383a177128f69026
-<<<<<<< HEAD
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -387,356 +437,232 @@
       <TodoPanelSettings />
     </option>
   </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>$PROJECT_DIR$/public/site</wordpressPath>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="5440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="2400">
-=======
-<<<<<<< HEAD
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="2400">
-=======
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="17" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="4315" max-vertical-offset="5440">
+        <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="2400">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="105" column="4" selection-start="3003" selection-end="3812" vertical-scroll-proportion="0.0" vertical-offset="2100" max-vertical-offset="3860">
-=======
-        <state line="0" column="37424" selection-start="37424" selection-end="37424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
->>>>>>> efd72d15209a8185fa170d81273ee3b277084aee
->>>>>>> f30db1c9e360972deedad083383a177128f69026
-<<<<<<< HEAD
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="17" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="4340" max-vertical-offset="5440">
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="17" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="5227" max-vertical-offset="7072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="4842" max-vertical-offset="7072">
-=======
-<<<<<<< HEAD
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5440">
+        <state vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1360">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="33" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5440">
+        <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="2400">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2400">
+        <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="2400">
+          <caret line="28" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
+    <entry file="file://$PROJECT_DIR$/public/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-=======
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2236" max-vertical-offset="5018">
->>>>>>> efd72d15209a8185fa170d81273ee3b277084aee
->>>>>>> f30db1c9e360972deedad083383a177128f69026
-<<<<<<< HEAD
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1076">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wordpress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1462307" vertical-offset="799" max-vertical-offset="1900">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-includes/nav-menu-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33550793" vertical-offset="860" max-vertical-offset="12660">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="70933" max-vertical-offset="101520">
+          <caret line="3571" column="9" selection-start-line="3571" selection-start-column="9" selection-end-line="3571" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/sidebar1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <marker date="1394472911000" expanded="true" signature="512:627" placeholder="..." />
+            <marker date="1394472911000" expanded="true" signature="565:616" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.26696834" vertical-offset="755" max-vertical-offset="9720">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58371043" vertical-offset="415" max-vertical-offset="1520">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="39" />
+          <folding>
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/wp_bootstrap_navwalker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21798365" vertical-offset="0" max-vertical-offset="4220">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#7#409#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.3435252" vertical-offset="3718" max-vertical-offset="5278" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="217" column="17" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="4315" max-vertical-offset="5440">
+        <state vertical-scroll-proportion="0.39076376" vertical-offset="500" max-vertical-offset="4100">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/conf/wordpress-deploy.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/320press/library/bones.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7805755" vertical-offset="868" max-vertical-offset="1980">
+        <state vertical-scroll-proportion="0.4959276" vertical-offset="1212" max-vertical-offset="4340">
+          <caret line="96" column="11" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/menus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="505" max-vertical-offset="3260">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="4" selection-start="3003" selection-end="3812" vertical-scroll-proportion="0.0" vertical-offset="2748" max-vertical-offset="3860">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/conf/wp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2220">
-=======
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="5440">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
+        <state vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="4060">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.76258993" vertical-offset="848" max-vertical-offset="1960">
-=======
-        <state line="13" column="38" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2400">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1960">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <marker date="1396239977000" expanded="true" signature="66:2773" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="106:2749" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="169:223" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="273:2741" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="456:2200" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="544:730" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="854:1892" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="941:1863" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="1964:2132" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="2319:2708" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="2344:2440" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="2487:2634" placeholder="..." />
+            <marker date="1396239977000" expanded="true" signature="2659:2685" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/editor-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="5440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-=======
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="5440">
+        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1580">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2400">
+        <state vertical-scroll-proportion="0.45413262" vertical-offset="560" max-vertical-offset="2400">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php">
       <provider selected="true" editor-type-id="text-editor">
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-        <state line="143" column="1" selection-start="1937" selection-end="2559" vertical-scroll-proportion="0.0" vertical-offset="2120" max-vertical-offset="5440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="2400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="2620">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding>
+            <marker date="1396243602000" expanded="true" signature="1418:1666" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="1511:1537" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="1723:2128" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="3793:4319" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="24" selection-start="3295" selection-end="3295" vertical-scroll-proportion="0.0" vertical-offset="3960" max-vertical-offset="5440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="27" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="2380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="24" selection-start="3295" selection-end="3295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="27" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="3094">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5148">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37424" selection-start="37424" selection-end="37424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="20" selection-start="1363" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.6557377" vertical-offset="280" max-vertical-offset="2400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2236" max-vertical-offset="5018">
-<<<<<<< HEAD
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
-=======
->>>>>>> a5a21e5c9d52d79d4035c038def63df102a96eca
+        <state vertical-scroll-proportion="0.1462307" vertical-offset="2379" max-vertical-offset="5680">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
           <folding />
         </state>
       </provider>

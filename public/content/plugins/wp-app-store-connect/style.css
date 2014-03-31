@@ -1,0 +1,106 @@
+/*
+	Wp iTunes & App Store
+*/
+
+#wpasc_gallery {
+  padding:0; 
+  margin:0; 
+  list-style-type:none; 
+  overflow:hidden; 
+  width:480px; 
+  height:490px; 
+  border:1px solid #888; 
+  background:#fff;
+  }
+#wpasc_gallery li {
+  float:left;
+  }
+#wpasc_gallery li a {
+  display:block; 
+  height:30px;
+  width:450px; 
+  float:left; 
+  text-decoration:none; 
+  border-bottom:1px solid #fff; 
+  cursor:default;
+  }
+#wpasc_gallery li a img {
+  width:480px; 
+  height:30px; 
+  border:0;
+  }
+#wpasc_gallery li a:hover {
+  background:#eee;
+  height:360px;
+  }
+#wpasc_gallery li a:hover img {
+  height:360px;
+  }
+
+.wpasc_rounded {
+border: 1px solid #FFFFFF;
+-moz-border-radius:25px; /* Firefox */
+-webkit-border-radius:25px; /* Safari, Chrome */
+-khtml-border-radius:25px; /* Konqueror */
+border-radius:25px; /* CSS3 */
+}
+
+.wpasc_shadow {
+-webkit-box-shadow: 10px 10px 10px #C0C0C0;
+-moz-box-shadow: 10px 10px 10px #C0C0C0;
+box-shadow: 10px 10px 10px #C0C0C0;
+}
+
+.wpasc_container {
+position:relative;
+width:500px;
+height:520px;
+margin:10px auto;
+}
+
+.wpasc_container a.wpasc_pics {
+float:left;
+padding:5px 5px;
+display:inline;
+}
+
+.wpasc_container a.wpasc_pics span {
+display:none;
+}
+
+.wpasc_container a.wpasc_pics:hover span {
+display:block;
+position:absolute;
+left:0px;
+top:100px;
+z-index:10;
+}
+
+.wpasc_container a.wpasc_pics:active img.wpasc_thumb {
+border:1px solid #fc0;
+}
+
+.wpasc_container a.wpasc_pics:active span {
+display:block;
+position:absolute;
+left:0px;
+top:100px;
+z-index:5;
+}
+
+.wpasc_container a.wpasc_pics:focus {
+outline:0;
+}
+
+.wpasc_container a.wpasc_pics:focus img.wpasc_thumb {
+border:1px solid #fc0
+}
+
+.wpasc_container a.wpasc_pics:focus span {
+display:block;
+position:absolute;
+left:0px;
+top:100px;
+z-index:5;
+outline:0;
+}
