@@ -18,11 +18,43 @@ function wp_bootstrap_main_nav() {
       'theme_location' => 'main_nav', /* where in the theme it's assigned defined in bones.php add theme support*/
       'container' => 'false', /* container class */
       'fallback_cb' => 'wp_bootstrap_main_nav_fallback', /* menu fallback */
-      // 'depth' => '2',  suppress lower levels for now
+//      'depth' => '2', // suppress lower levels for now
       'walker' => new Bootstrap_walker()
     )
   );
 }
+function test_nav() {
+  // display the wp3 menu if available
+  wp_nav_menu(
+    array(
+      'menu' => 'main_nav', /* menu name */
+      'menu_class' => 'nav navbar-nav center-block',
+      'theme_location' => 'main_nav', /* where in the theme it's assigned defined in bones.php add theme support*/
+      'container' => 'false', /* container class */
+      'fallback_cb' => 'wp_bootstrap_main_nav_fallback', /* menu fallback */
+      'depth' => '2', // suppress lower levels for now
+      'walker' => new wp_bootstrap_navwalker()
+    )
+  );
+}
+
+function mr_footer_menu()
+{
+		// display the wp3 menu if available
+		wp_nav_menu(
+				array(
+						'menu' => 'footer_links', /* menu name */
+						'menu_class' => 'nav nav-stacked nav-pills', /*menu class*/
+						'menu_id' => 'footer-main-menu',
+						'theme_location' => 'footer_links', /* where in the theme it's assigned */
+						'container_class' => 'footer-links clearfix', /* container class */
+						'depth' => 1,
+						'fallback_cb' => 'wp_bootstrap_footer_links_fallback' /* menu fallback */
+
+				)
+		);
+}
+
 
 function wp_bootstrap_footer_links() {
   // display the wp3 menu if available
@@ -31,6 +63,7 @@ function wp_bootstrap_footer_links() {
       'menu' => 'footer_links', /* menu name */
       'theme_location' => 'footer_links', /* where in the theme it's assigned */
       'container_class' => 'footer-links clearfix', /* container class */
+		    'depth' => 1,
       'fallback_cb' => 'wp_bootstrap_footer_links_fallback' /* menu fallback */
     )
   );

@@ -9,6 +9,8 @@
     <!--END SIDEBAR-->
     <div class="col-xs-9">
 
+
+
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
             <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope
@@ -27,11 +29,10 @@
 
                     <div class="galerie">
                         <?php
-
-                        $rows = get_field('galeriebilder');
-                        echo count($rows[0]);
-
-                               /* echo '<pre>';
+												// Bildergalerie
+                        $rows = get_field('bildergalerie');
+                        //echo count($rows[0]);
+/*                                echo '<pre>';
                                 var_dump($rows[0]);
                                 echo '</pre>';*/
                         if ($rows) {
@@ -40,8 +41,8 @@
                             foreach ($rows as $row) {
 
 
-                                $image = wp_get_attachment_image_src($row['galeriebild'], 'thumbnail');
-                                echo '<img src="' . $row['galeriebild']['sizes']['medium'] . '" />';
+//                                $image = wp_get_attachment_image_src($row['galeriebild'], 'thumbnail');
+                                echo '<img src="' . $row['bild']['sizes']['medium'] . '" />';
                                 //echo '<li>sub_field_1 = ' . '' .'</li>'; // . ', sub_field_2 = ' . $row['sub_field_2'] .', etc</li>';
                             }
 

@@ -11,6 +11,7 @@ require_once('library/admin.php');
 require_once('library/menus.php');
 require_once('library/extras.php');
 require_once('library/helper.php');
+require_once('library/wp_bootstrap_navwalker.php');
 
 
 
@@ -23,10 +24,23 @@ if ( ! isset( $content_width ) ) $content_width = 580;
 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
-// Thumbnail sizes
+/*// Thumbnail sizes
 add_image_size( 'wpbs-featured', 780, 300, true );
 add_image_size( 'wpbs-featured-home', 970, 311, true);
 add_image_size( 'wpbs-featured-carousel', 970, 400, true);
+
+/*add them to the media library dropdown*/
+/*add_filter( 'image_size_names_choose', 'custom_image_sizes_choose' );
+function custom_image_sizes_choose( $sizes ) {
+  $custom_sizes = array(
+    'wpbs-featured' => 'wpbs-featured',
+    'wpbs-featured-home' => 'wpbs-featured-home',
+    'wpbs-featured-carousel' => 'wpbs-featured-carousel',
+  );
+  return array_merge( $sizes, $custom_sizes );
+}*/
+
+
 
 /*
 to add more sizes, simply copy a line from above
@@ -118,20 +132,7 @@ if (!function_exists("theme_scripts")) {
 add_action('wp_enqueue_scripts', 'theme_scripts');
 
 
-function mr_footer_menu()
-{
-  // display the wp3 menu if available
-  wp_nav_menu(
-    array(
-      'menu' => 'footer_links', /* menu name */
-      'menu_class' => 'nav nav-stacked nav-pills', /*menu class*/
-      'menu_id' => 'footer-main-menu',
-      'theme_location' => 'footer_links', /* where in the theme it's assigned */
-      'container_class' => 'footer-links clearfix', /* container class */
-      'fallback_cb' => 'wp_bootstrap_footer_links_fallback' /* menu fallback */
-    )
-  );
-}
+
 
 
 // Disable jump in 'read more' link
@@ -158,35 +159,10 @@ function remove_thumbnail_dimensions( $html ) {
 
 
 
-// Set content width
-if ( ! isset( $content_width ) ) $content_width = 580;
-
-/************* THUMBNAIL SIZE OPTIONS *************/
-
-// Thumbnail sizes
-add_image_size( 'wpbs-featured', 780, 300, true );
-add_image_size( 'wpbs-featured-home', 970, 311, true);
-add_image_size( 'wpbs-featured-carousel', 970, 400, true);
-
-/*
-to add more sizes, simply copy a line from above
-and change the dimensions & name. As long as you
-upload a "featured image" as large as the biggest
-set width or height, all the other sizes will be
-auto-cropped.
-
-To call a different size, simply change the text
-inside the thumbnail function.
-
-For example, to call the 300 x 300 sized image,
-we would use the function:
-<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
-for the 600 x 100 image:
-<?php the_post_thumbnail( 'bones-thumb-600' ); ?>
-
-You can change the names and dimensions to whatever
-you like. Enjoy!
-*/
-
+/*EDITOR STYLES*/
+function my_theme_add_editor_styles() {
+    add_editor_style( 'editor-style.css' );
+}
+add_action( 'init', 'my_theme_add_editor_styles' );
 
 

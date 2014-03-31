@@ -1,0 +1,45 @@
+div.wpasctabsmain {padding: 0.6em; margin: 1em 2em}
+
+div.wpasctabs {
+  min-height: 80em;		/* No height: can grow if :target doesn't work */
+  position: relative;		/* Establish a containing block */
+  line-height: 1;		/* Easier to calculate with */
+  z-index: 0}			/* So that we can put other things behind */
+
+div.wpasctabs > div {
+  display: inline}		/* We want the buttons all on one line */
+
+div.wpasctabs > div > a {
+  color: black;			/* Looks more like a button than a link */
+  background: #F8F8F8;		/* Active tabs are light gray */
+  padding: 0.2em;		/* Some breathing space */
+  border: 0.1em outset #9C9C9C;	/* Make it look like a button */
+  border-bottom: 0.1em solid #F8F8F8} /* Visually connect tab and tab body */
+
+div.wpasctabs > div:not(:target) > a {
+  border-bottom: none;		/* Make the bottom border disappear */
+  background: #9C9C9C}		/* Inactive tabs are dark gray */
+
+div.wpasctabs > div:target > a, :target #wpasctabs1 > a {	/* Apply to the targeted item or... */
+														/* ... to the default item */
+  border-bottom: 0.1em solid #F8F8F8; /* Visually connect tab and tab body */
+  background: #F8F8F8}		/* Active tab is light gray */
+
+div.wpasctabs > div > div {
+  background: #F8F8F8;		/* Light gray */
+  z-index: -2;			/* Behind, because the borders overlap */
+  left: 0; top: 1.3em;		/* The top needs some calculation... */
+  bottom: 0; right: 0;		/* Other sides flush with containing block */
+  overflow: auto;		/* Scroll bar if needed */
+  padding: 0.3em;		/* Looks better */
+  border: 0.1em outset #9C9C9C}	/* 3D look */
+
+div.wpasctabs > div:not(:target) > div { /* Protect CSS1 & CSS2 browsers */
+  position: absolute }		/* All these DIVs overlap */
+
+div.wpasctabs > div:target > div, :target #wpasctabs1 > div {
+  position: absolute;		/* All these DIVs overlap */
+  z-index: -1}			/* Raise it above the others */
+
+div.wpasctabs:target {
+  outline: none}

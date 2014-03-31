@@ -47,7 +47,7 @@
     .nav > li > a {
         position: relative;
         display: block;
-        padding: 10px 44px;
+        padding: 10px 33px;
     }
 }
 
@@ -55,7 +55,7 @@
 @media (min-width: 1200px) {
     .navbar-default {
         margin-top: 22px;
-        font-size: 2.2em !important;
+        font-size: 2em !important;
         font-weight: 800;
     }
 }
@@ -63,9 +63,17 @@
 .navbar-default {
     margin-top: 22px;
 
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: 800;
 }
+
+
+/*dropdown*/
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{color:#f2f2f2; background-color:#010101;}
+.dropdown-menu>li>a{padding: 3px 20px;}
+.dropdown-menu{padding:0px 0;margin:0; left:22px;}
+
+
 
 /*
  nav pills correct in Bootstrap min
@@ -117,7 +125,7 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 320px;
+    margin-bottom: 420px;
 }
 body > footer {
     background:black;
@@ -197,7 +205,7 @@ footer nav p {
 
 
 .listing > hr {margin:0;}
-
+®
 
 /*panel open state*/
 .panel-title .glyphicon{margin-right: 11px;color:slategray;}
@@ -215,7 +223,8 @@ footer nav p {
 
 /*panel expandable content*/
 .panel-body{
-    margin-left:8.6em;
+    margin-left:0;
+    padding:0 0 0 15px;
     background:#fff;
 }
 .dl-horizontal dd{
@@ -256,7 +265,11 @@ SIDEBAR
 
 
 
-
+/*itunes*/
+.itunes-btn {width: 125px;text-indent: -200%;
+    background: url(img/viewinitunes_de.png) 0 0 no-repeat;
+    display: block;
+    height: 24px;}
 
 
 

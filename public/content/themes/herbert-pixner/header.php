@@ -7,7 +7,16 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title><?php wp_title('|', true, 'right'); ?></title>
+  <title><?php
+		        echo bloginfo('name');
+		        if ($post->post_parent) {
+				        echo ' '.get_the_title($post->post_parent);
+
+		            wp_title('|', true, 'left');
+		        } else {
+				        wp_title('|', true, 'left');
+		        };
+		  ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- media-queries.js (fallback) -->
@@ -47,8 +56,8 @@
         <!--front page header -->
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-header.jpg" alt=""/>
         <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner.svg" alt=""/></div>
-
       <?php else: ?>
+		      <?php if(is_page()): ?>
       <?php if(is_page( 'projekt' ) || '5' == $post->post_parent): ?>
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
         <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner-projekt.svg" alt=""/></div>
@@ -61,8 +70,13 @@
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/three-saints-records-header210.jpg" alt=""/>
         <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/three-saints-records.svg" alt=""/></div>
       <?php endif; ?>
+      <?php if(is_page( 'pixner-privat' )): ?>
+        <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
+        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner.svg" alt=""/></div>
+      <?php endif; ?>
 
-    <?php endif; ?>
+			<?php endif; //end if page ?>
+      <?php endif; ?>
 
 
 
@@ -75,7 +89,7 @@
 </div>
   </div>
 
-  <div class="container header-feature">
+  <div class="header-feature">
   <div class="navbar navbar-default">
 
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -87,7 +101,7 @@
 
       <div class="navbar-collapse collapse">
 
-            <?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+            <?php test_nav(); // Adjust using Menus in Wordpress Admin ?>
 
       </div>
       <!--/.navbar-collapse -->

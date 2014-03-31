@@ -66,3 +66,11 @@ h6 {
   color: #999999;
   text-transform: uppercase;
 }
+
+/*itunes*/
+.itunes-btn {width: 125px;
+    background: url(img/viewinitunes_de.png) 0 0 no-repeat;
+    display: block;
+    height: 24px;}
+
+.band_img{background: green}
