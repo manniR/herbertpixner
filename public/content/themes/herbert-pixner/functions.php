@@ -24,10 +24,23 @@ if ( ! isset( $content_width ) ) $content_width = 580;
 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
-// Thumbnail sizes
+/*// Thumbnail sizes
 add_image_size( 'wpbs-featured', 780, 300, true );
 add_image_size( 'wpbs-featured-home', 970, 311, true);
 add_image_size( 'wpbs-featured-carousel', 970, 400, true);
+
+/*add them to the media library dropdown*/
+/*add_filter( 'image_size_names_choose', 'custom_image_sizes_choose' );
+function custom_image_sizes_choose( $sizes ) {
+  $custom_sizes = array(
+    'wpbs-featured' => 'wpbs-featured',
+    'wpbs-featured-home' => 'wpbs-featured-home',
+    'wpbs-featured-carousel' => 'wpbs-featured-carousel',
+  );
+  return array_merge( $sizes, $custom_sizes );
+}*/
+
+
 
 /*
 to add more sizes, simply copy a line from above
@@ -146,57 +159,10 @@ function remove_thumbnail_dimensions( $html ) {
 
 
 
-// Set content width
-if ( ! isset( $content_width ) ) $content_width = 580;
-
-/************* THUMBNAIL SIZE OPTIONS *************/
-
-// Thumbnail sizes
-add_image_size( 'wpbs-featured', 780, 300, true );
-add_image_size( 'wpbs-featured-home', 970, 311, true);
-add_image_size( 'wpbs-featured-carousel', 970, 400, true);
-
-/*
-to add more sizes, simply copy a line from above
-and change the dimensions & name. As long as you
-upload a "featured image" as large as the biggest
-set width or height, all the other sizes will be
-auto-cropped.
-
-To call a different size, simply change the text
-inside the thumbnail function.
-
-For example, to call the 300 x 300 sized image,
-we would use the function:
-<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
-for the 600 x 100 image:
-<?php the_post_thumbnail( 'bones-thumb-600' ); ?>
-
-You can change the names and dimensions to whatever
-you like. Enjoy!
-*/
-
-
-class UL_Submenu_Walker extends Walker_Nav_Menu {
-		private $hidden = false;
-
-		function start_lvl( &$output, $depth = 0, $args = array() ) {
-				if($depth == 0) {
-						$style = $this->hidden ? "" : "display:none;";
-				}
-				$indent = str_repeat("\t", $depth);
-				$output .= "<ul class=\"submenu-".$depth."\" style='".$style."'>";
-		}
-
-		function start_el( &$output, $item, $depth=0, $args = array(), $id = 0 ) {
-
-				$classes = empty( $item->classes ) ? array() : (array) $item->classes;
-				echo '<pre>';
-				var_dump();
-				echo '</pre>';
-
-				parent::start_el($output, $item, $depth, $args);
-		}
+/*EDITOR STYLES*/
+function my_theme_add_editor_styles() {
+    add_editor_style( 'editor-style.css' );
 }
+add_action( 'init', 'my_theme_add_editor_styles' );
 
 

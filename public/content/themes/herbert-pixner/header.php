@@ -70,14 +70,12 @@
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/three-saints-records-header210.jpg" alt=""/>
         <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/three-saints-records.svg" alt=""/></div>
       <?php endif; ?>
+      <?php if(is_page( 'pixner-privat' )): ?>
+        <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
+        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner.svg" alt=""/></div>
+      <?php endif; ?>
+
 			<?php endif; //end if page ?>
-
-		      <?php if (is_category()) ?>
-		      <?php if(is_category( 'pixner-privat' )): ?>
-				      <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
-				      <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner.svg" alt=""/></div>
-		      <?php endif; ?>
-
       <?php endif; ?>
 
 

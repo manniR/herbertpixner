@@ -18,8 +18,13 @@
 define('APP_ROOT', dirname(__DIR__));
 define('WP_HOME', 'http://dev.sandbox.com');
 define('WP_SITEURL', WP_HOME . '/site/');
+define('WP_PLUGIN_DIR',  APP_ROOT. '/content/plugins');
+define('WP_PLUGIN_URL',  WP_HOME. '/content/plugins');
+define('PLUGINDIR',  APP_ROOT. '/content/plugins');
 define('WP_CONTENT_DIR', APP_ROOT . '/public/content/');
 define('WP_CONTENT_URL',  WP_HOME. '/content');
+
+
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -86,8 +91,8 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
-define('WP_DEBUG_LOG', true);
-define('WP_DEBUG_DISPLAY', true);
+define('WP_DEBUG_LOG', false);
+define('WP_DEBUG_DISPLAY', false);
 @ini_set('display_errors',0);
 
 /* That's all, stop editing! Happy blogging. */
