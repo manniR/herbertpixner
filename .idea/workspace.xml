@@ -26,7 +26,7 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+            <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="1360">
               <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding />
             </state>
@@ -38,21 +38,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1960">
               <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-              <folding>
-                <marker date="1396239977000" expanded="true" signature="66:2773" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="106:2749" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="169:223" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="273:2741" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="456:2200" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="544:730" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="854:1892" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="941:1863" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="1964:2132" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="2319:2708" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="2344:2440" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="2487:2634" placeholder="..." />
-                <marker date="1396239977000" expanded="true" signature="2659:2685" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +46,8 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1462307" vertical-offset="2379" max-vertical-offset="5680">
-              <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.30971843" vertical-offset="2379" max-vertical-offset="5680">
+              <caret line="136" column="17" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -80,12 +66,11 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="2620">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="2340">
               <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
               <folding>
                 <marker date="1396243602000" expanded="true" signature="1418:1666" placeholder="..." />
                 <marker date="1396243602000" expanded="true" signature="1511:1537" placeholder="..." />
-                <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
                 <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
                 <marker date="1396243602000" expanded="true" signature="1723:2128" placeholder="..." />
                 <marker date="1396243602000" expanded="true" signature="3793:4319" placeholder="..." />
@@ -97,7 +82,7 @@
       <file leaf-file-name="sidebar1.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/sidebar1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="580">
               <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <marker date="1394472911000" expanded="true" signature="512:627" placeholder="..." />
@@ -110,7 +95,7 @@
       <file leaf-file-name="menus.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/menus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="505" max-vertical-offset="3260">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="3360">
               <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding />
             </state>
@@ -120,8 +105,8 @@
       <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="4060">
-              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2959" max-vertical-offset="4060">
+              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,7 +115,7 @@
       <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="70933" max-vertical-offset="101520">
+            <state vertical-scroll-proportion="0.0" vertical-offset="71420" max-vertical-offset="101640">
               <caret line="3571" column="9" selection-start-line="3571" selection-start-column="9" selection-end-line="3571" selection-end-column="9" />
               <folding />
             </state>
@@ -401,22 +386,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="962" y="22" width="958" height="1178" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13408305" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45615867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13408305" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
@@ -444,11 +429,91 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="1360">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1960">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2379" max-vertical-offset="5680">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/editor-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1580">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="2340">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding>
+            <marker date="1396243602000" expanded="true" signature="1418:1666" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="1511:1537" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="1723:2128" placeholder="..." />
+            <marker date="1396243602000" expanded="true" signature="3793:4319" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/sidebar1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="580">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <marker date="1394472911000" expanded="true" signature="512:627" placeholder="..." />
+            <marker date="1394472911000" expanded="true" signature="565:616" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/library/menus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="3360">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2420" max-vertical-offset="4160">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="71420" max-vertical-offset="101640">
+          <caret line="3571" column="9" selection-start-line="3571" selection-start-column="9" selection-end-line="3571" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/tourdateListing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="2400">
           <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="2400">
           <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="2400">
           <caret line="28" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1076">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1462307" vertical-offset="799" max-vertical-offset="1900">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,14 +584,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.26696834" vertical-offset="755" max-vertical-offset="9720">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197402000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -538,21 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58371043" vertical-offset="415" max-vertical-offset="1520">
           <caret line="53" column="37" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="39" />
-          <folding>
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396197841000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39076376" vertical-offset="500" max-vertical-offset="4100">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4959276" vertical-offset="1212" max-vertical-offset="4340">
           <caret line="96" column="11" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,33 +627,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2025" max-vertical-offset="4060">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1960">
           <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-          <folding>
-            <marker date="1396239977000" expanded="true" signature="66:2773" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="106:2749" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="169:223" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="273:2741" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="456:2200" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="544:730" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="854:1892" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="941:1863" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="1964:2132" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="2319:2708" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="2344:2440" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="2487:2634" placeholder="..." />
-            <marker date="1396239977000" expanded="true" signature="2659:2685" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45413262" vertical-offset="560" max-vertical-offset="2400">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,17 +666,24 @@
             <marker date="1396243602000" expanded="true" signature="1418:1666" placeholder="..." />
             <marker date="1396243602000" expanded="true" signature="1511:1537" placeholder="..." />
             <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
-            <marker date="1396243602000" expanded="true" signature="1689:2128" placeholder="..." />
             <marker date="1396243602000" expanded="true" signature="1723:2128" placeholder="..." />
             <marker date="1396243602000" expanded="true" signature="3793:4319" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2959" max-vertical-offset="4060">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/content/themes/herbert-pixner/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1462307" vertical-offset="2379" max-vertical-offset="5680">
-          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.30971843" vertical-offset="2379" max-vertical-offset="5680">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="17" />
           <folding />
         </state>
       </provider>
