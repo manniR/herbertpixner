@@ -18,12 +18,19 @@
 .gray {color: #808285}
 .green{color: #465115}
 
+/*
+ MAIN ADJUSTMENTS
+*/
+
+.container {max-width: 1000px}
 
 
 /*hide subnav on smaller screens and show on collapsed menu*/
 @media screen and (max-width: 765px) {
 
     #sidebar1 {display:none;}
+    #menu-main-menu li:first-child >a{padding-left:15px;}
+    #menu-main-menu li:last-child > a{padding-right:15px;}
 }
 
 
@@ -39,15 +46,17 @@
     .nav > li > a {
         position: relative;
         display: block;
-        padding: 10px 22px;
+        padding: 10px 10px;
     }
+    #menu-main-menu li:first-child >a{padding-left:0;}
+    #menu-main-menu li:last-child > a{padding-right:0;}
 }
 
 @media (min-width: 1000px) {
     .nav > li > a {
         position: relative;
         display: block;
-        padding: 10px 33px;
+        padding: 10px 17px;
     }
 }
 
@@ -55,7 +64,7 @@
 @media (min-width: 1200px) {
     .navbar-default {
         margin-top: 22px;
-        font-size: 2em !important;
+        font-size: 1.4em !important;
         font-weight: 800;
     }
 }
@@ -63,9 +72,10 @@
 .navbar-default {
     margin-top: 22px;
 
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 800;
 }
+
 
 
 /*dropdown*/
@@ -82,13 +92,13 @@
     color: #000;
 
 }
-
+.nav-pills{padding-top: 0;}
 .nav-pills>li a{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 800;
     padding:0 0 6px 0;
 }
-
+footer .nav-pills>li a{font-size: 1em;}
 /*BACKGROUND COLORS*/
 .img-fullwidth-bg {background: #465115;}
 .header-image {
@@ -170,7 +180,7 @@ footer .menu{
     color:white;
 }
 footer nav p {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 800;
     margin: 33px 0 22px 0;
 }
@@ -178,6 +188,10 @@ footer nav p {
 #footer-main-menu a {
     padding:0;
 }
+
+
+footer address{font-size:0.95em;}
+
 
 .socials{
     margin:33px 0 22px 0;
@@ -249,7 +263,7 @@ footer nav p {
 SIDEBAR
 */
 
-#sidebar1 .nav{margin-top: 22px}
+#sidebar1 .nav{margin-top: 0px}
 
 
 
@@ -272,6 +286,23 @@ SIDEBAR
     height: 24px;}
 
 
+
+
+
+/*
+ HELPER classes
+*/
+
+.smaller{font-size: small;padding-top: 1.5em;}
+
+.margL0{margin-left: 0 !important;}
+.margR0{margin-right: 0 !important;}
+.margLR0{margin-left: 0 !important;margin-right: 0 !important;}
+.marg0{margin: 0 !important;}
+.paddL0{padding-left: 0 !important;}
+.paddR0{padding-right: 0 !important;}
+.paddLR0{padding-left: 0 !important;padding-right: 0 !important;}
+.padd0{padding: 0 !important;}
 
 
 

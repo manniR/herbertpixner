@@ -14,11 +14,11 @@ function wp_bootstrap_main_nav() {
   wp_nav_menu(
     array(
       'menu' => 'main_nav', /* menu name */
-      'menu_class' => 'nav navbar-nav center-block',
+      'menu_class' => 'nav navbar-nav pull-left',
       'theme_location' => 'main_nav', /* where in the theme it's assigned defined in bones.php add theme support*/
       'container' => 'false', /* container class */
       'fallback_cb' => 'wp_bootstrap_main_nav_fallback', /* menu fallback */
-//      'depth' => '2', // suppress lower levels for now
+      'depth' => '2', // suppress lower levels for now
       'walker' => new Bootstrap_walker()
     )
   );
@@ -136,7 +136,7 @@ class Bootstrap_walker extends Walker_Nav_Menu{
 
     // if the item has children add the caret just before closing the anchor tag
     if ( $args->has_children ) {
-      $item_output .= '<b class="caret"></b></a>';
+      //$item_output .= '<b class="caret"></b></a>'; // uncomment if submenu
     }
     else {
       $item_output .= '</a>';

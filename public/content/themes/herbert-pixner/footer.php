@@ -12,14 +12,16 @@
 		            <?php endif; ?>
 		          </div>
 
-      <nav class="nav clearfix col-xs-6">
+      <div class="col-md-5 col-md-offset-1 col-xs-offset-0 paddL0 col-xs-6">
+        <nav class="nav clearfix">
         <p class="footer-title">herbert pixner</p>
         <?php //wp_bootstrap_footer_links(); // Adjust using Menus in Wordpress Admin ?>
         <?php mr_footer_menu(); // Adjust using Menus in Wordpress Admin ?>
       </nav>
+      </div>
 
       <!--					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>-->
-      <div class="col-xs-6">
+      <div class="col-md-5 col-xs-6">
         <div class="clearfix socials">
 
                         <a href="https://de-de.facebook.com/herbertpixnerprojekt" style="color:white;"><span class="fa-stack fa-lg fa-2x pull-right">

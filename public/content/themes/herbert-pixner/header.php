@@ -88,10 +88,12 @@
 
 </div>
   </div>
+<div class="container">
 
-  <div class="header-feature">
+  <div class="header-feature row">
+
+      <div class="col-md-11 col-md-offset-1 col-sm-offset-0 col-sm-12">
   <div class="navbar navbar-default">
-
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -99,12 +101,15 @@
       </button>
       <!--<a class="navbar-brand" href="#">Project name</a>-->
 
-      <div class="navbar-collapse collapse">
+      <div class="navbar-collapse collapse paddLR0">
 
-            <?php test_nav(); // Adjust using Menus in Wordpress Admin ?>
+            <?php wp_bootstrap_main_nav();//test_nav(); // Adjust using Menus in Wordpress Admin ?>
 
       </div>
       <!--/.navbar-collapse -->
 
+
+      </div>
+  </div>
   </div>
 </header>

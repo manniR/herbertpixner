@@ -2,9 +2,12 @@
 
 <div class="container">
 <div id="content" class="clearfix row">
-      <?php get_template_part('partials/template', 'sidebar') ?>
 
-  <div class="col-sm-8">
+    <div id="sidebar1" class="col-sm-2 col-sm-offset-1" role="complementary">
+    <?php require_once('sidebar1.php'); ?>
+    </div>
+    <!--END SIDEBAR-->
+    <div class="col-sm-8">
 
 
 
@@ -23,6 +26,31 @@
 
                 <section class="post_content clearfix" itemprop="articleBody">
                     <?php the_content(); ?>
+
+                    <div class="galerie">
+                        <?php
+												// Bildergalerie
+                        $rows = get_field('bildergalerie');
+                        //echo count($rows[0]);
+/*                                echo '<pre>';
+                                var_dump($rows[0]);
+                                echo '</pre>';*/
+                        if ($rows) {
+                            echo '<ul>';
+
+                            foreach ($rows as $row) {
+
+
+//                                $image = wp_get_attachment_image_src($row['galeriebild'], 'thumbnail');
+                                echo '<img src="' . $row['bild']['sizes']['medium'] . '" />';
+                                //echo '<li>sub_field_1 = ' . '' .'</li>'; // . ', sub_field_2 = ' . $row['sub_field_2'] .', etc</li>';
+                            }
+
+                            echo '</ul>';
+                        }?>
+
+                    </div>
+
 
                 </section>
                 <!-- end article section -->
