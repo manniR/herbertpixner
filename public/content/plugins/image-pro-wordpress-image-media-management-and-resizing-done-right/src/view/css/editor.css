@@ -1,0 +1,56 @@
+#impro_editor .impro_alt, #impro_editor .impro_title {
+	margin-top: 6px;
+	margin-bottom: 10px;
+	width: 97%;	
+}
+
+#wp_editbtns {
+	display: none !important;
+}
+
+.impro-editor-wh-error {
+    background: #ee5555 !important;
+}
+
+#impro-preview {
+    width: 100%;
+    height: 70px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 5px;
+
+    -webkit-box-shadow: inset 3px -3px 33px -4px rgba(0,0,0,0.83);
+    -moz-box-shadow: inset 3px -3px 33px -4px rgba(0,0,0,0.83);
+    box-shadow: inset 3px -3px 33px -4px rgba(0,0,0,0.83);
+}
+
+#impro-editor-maxwidth-info {
+    background: #E4F2FF;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+.impro-control-group {
+    margin-bottom: 5px;
+}
+
+#impro-editor-maxwidth-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+}
+
+#impro-editor-w, #impro-editor-h {
+    display: inline-block;
+    width: 65px;
+}
+
+#impro_editor_box .inside {
+    margin-top: 12px;
+}
+
+#impro_editor > .impro-control-group:first-child {
+    margin-top: 5px;
+}

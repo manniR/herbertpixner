@@ -27,8 +27,8 @@ define('WP_PLUGIN_URL',  WP_HOME. '/content/plugins');
 define('PLUGINDIR',  APP_ROOT. '/content/plugins');
 
 
-/*
-echo('APP_ROOT ' . APP_ROOT . '<br/>');
+
+/*echo('APP_ROOT ' . APP_ROOT . '<br/>');
 echo('WP_HOME ' . WP_HOME . '<br/>');
 echo('WP_SITEURL ' . WP_SITEURL . '<br/>');
 echo('WP_CONTENT_DIR '.WP_CONTENT_DIR . '<br/>');
