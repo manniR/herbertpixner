@@ -99,11 +99,10 @@
 
       <div class="col-md-11 col-md-offset-1 col-sm-offset-0 col-sm-12">
   <div class="navbar navbar-default">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+      <div  class="top-nav-toggle pull-right" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="ab-icon"></span>
+
+      </div>
       <!--<a class="navbar-brand" href="#">Project name</a>-->
 
       <div class="navbar-collapse collapse paddLR0">

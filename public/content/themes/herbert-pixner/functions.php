@@ -167,3 +167,34 @@ function my_theme_add_editor_styles() {
 add_action( 'init', 'my_theme_add_editor_styles' );
 
 
+/*
+ REMOVE IMAGE W / H
+*/
+
+/*
+function remove_width_attribute( $html ) {
+  $html = preg_replace( '/(width|height)="\d*"\s/', "", $html );
+
+  return $html;
+}
+
+add_filter( 'post_thumbnail_html', 'remove_width_attribute', 10 );
+add_filter( 'image_send_to_editor', 'remove_width_attribute', 10 )*/;
+
+add_filter('the_content', 'add_responsive_class');
+
+function add_responsive_class($content){
+
+  $content = mb_convert_encoding($content, 'HTML-ENTITIES', "UTF-8");
+  $document = new DOMDocument();
+  libxml_use_internal_errors(true);
+  $document->loadHTML(utf8_decode($content));
+
+  $imgs = $document->getElementsByTagName('img');
+  foreach ($imgs as $img) {
+    $img->setAttribute('class','w100');
+  }
+
+  $html = $document->saveHTML();
+  return $html;
+}

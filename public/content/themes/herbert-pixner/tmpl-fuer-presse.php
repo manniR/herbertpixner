@@ -41,15 +41,16 @@ echo '</pre>';*/
 
 ?>
 <?php if($presse_query->have_posts()): ?>
-<div class="row">
+<div class="row presse">
 
 
 
 
 <!-- the loop -->
 <?php while( $presse_query->have_posts() ) : $presse_query->the_post(); ?>
-<div class="col-md-3">
-<div class="thumbnail">
+<div class="<?php $cl=get_post_class(); echo $cl[0] ?>">
+
+<div class="">
   <p><?php the_title() ?></p>
   <?php the_content() ?>
 </div>

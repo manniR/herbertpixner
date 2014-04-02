@@ -5,6 +5,9 @@
   $("h1.logo").fitText(1.25);
 //  $("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
 
+  //set blueimpGallery options
+  //hidePageScrollbars: false
+  blueimp.Gallery.prototype.options.hidePageScrollbars = false;
 })(jQuery);
 
 
