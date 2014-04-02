@@ -67,7 +67,7 @@ echo '</pre>';*/
 <p> <?php _e( 'Sorry, no press-data where found'); ?></p>
 <?php endif; ?>
 
-
+</div>
     </div> <!-- end #main -->
 
 </div> <!-- end #content -->

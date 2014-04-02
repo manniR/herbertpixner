@@ -55,24 +55,29 @@
       <?php if (is_front_page()): ?>
         <!--front page header -->
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-header.jpg" alt=""/>
-        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner.svg" alt=""/></div>
+<!--        <div class="header-title-svg"><img src="--><?//= get_stylesheet_directory_uri()?><!--/img/herbert-pixner.svg" alt=""/></div>-->
+        <div class="site-header-title"><h1 class="logo home">herbert pixner</h1></div>
       <?php else: ?>
 		      <?php if(is_page()): ?>
       <?php if(is_page( 'projekt' ) || '5' == $post->post_parent): ?>
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
-        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner-projekt.svg" alt=""/></div>
+<!--        <div class="header-title-svg"><img src="--><?//= get_stylesheet_directory_uri()?><!--/img/herbert-pixner-projekt.svg" alt=""/></div>-->
+				<div class="site-header-title"><h1 class="logo projekt">herbert pixner projekt</h1></div>
       <?php endif; ?>
       <?php if(is_page( 'offroad' ) || '2' == $post->post_parent): ?>
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-offroad-header210.jpg" alt=""/>
-        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner-offroad.svg" alt=""/></div>
+<!--        <div class="header-title-svg"><img src="--><?//= get_stylesheet_directory_uri()?><!--/img/herbert-pixner-offroad.svg" alt=""/></div>-->
+				<div class="site-header-title"><h1 class="logo offroad">herbert pixner offroad</h1></div>
       <?php endif; ?>
       <?php if(is_page( 'three-saints-records' ) || '7' == $post->post_parent): ?>
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/three-saints-records-header210.jpg" alt=""/>
-        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/three-saints-records.svg" alt=""/></div>
+<!--        <div class="header-title-svg"><img src="--><?//= get_stylesheet_directory_uri()?><!--/img/three-saints-records.svg" alt=""/></div>-->
+				<div class="site-header-title"><h1 class="logo three-saints">three saints records</h1></div>
       <?php endif; ?>
       <?php if(is_page( 'pixner-privat' )): ?>
         <img class="header-image img-responsive" src="<?= get_stylesheet_directory_uri() ?>/img/herbert-pixner-projekt-header210.jpg" alt=""/>
-        <div class="header-title-svg"><img src="<?= get_stylesheet_directory_uri()?>/img/herbert-pixner.svg" alt=""/></div>
+<!--        <div class="header-title-svg"><img src="--><?//= get_stylesheet_directory_uri()?><!--/img/herbert-pixner.svg" alt=""/></div>-->
+				<div class="site-header-title"><h1 class="logo privat">pixner privat</h1></div>
       <?php endif; ?>
 
 			<?php endif; //end if page ?>

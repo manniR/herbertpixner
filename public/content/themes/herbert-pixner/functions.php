@@ -126,6 +126,7 @@ if (!function_exists("theme_scripts")) {
     wp_enqueue_script('modernizer');
     wp_enqueue_script('bootstrap-js');
     wp_enqueue_script('jquery-lightbox');
+    wp_enqueue_script('fittext');
     wp_enqueue_script('main');
   }
 }
