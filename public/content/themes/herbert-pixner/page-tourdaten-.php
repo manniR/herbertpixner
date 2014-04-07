@@ -97,16 +97,18 @@
                 $m[1] = $m[0];
               }
               ?>
+
               <!--START PANELS-->
               <div class="panel">
+
+
                   <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#<?php the_ID() ?>">
-		                  <div class="panel-title">
-				                  <h4 class="tour" >
-						                  <span class="date"><?php echo date('d-m-Y', strtotime(get_field('datum', $post->ID))) ?></span>
-						                  <span class="icon"><i class="glyphicon glyphicon-info-sign "></i></span>
-						                  <span class="title" ><?php the_title() ?></span>
-				                  </h4>
-		                  </div>
+				                <table><tr class="panel-title">
+						                <td class="datum" style="white-space:nowrap; width: 88px;"><span><?php echo date('d-m-Y', strtotime(get_field('datum', $post->ID))) ?></span></td>
+						                <td style ><?php the_title() ?></td>
+						                <td class="icon"><i class="glyphicon glyphicon-info-sign pull-right"></i></td>
+				                </tr></table>
+                      <?php echo(get_field('ausverkauft') ? '<span class="ausverkauft pull-right">AUSVERKAUFT</span>' : '') ?>
                   </a>
 
                 <div id="<?php the_ID(); ?>" class="panel-collapse collapse">

@@ -109,6 +109,9 @@ class wp_bootstrap_navwalker extends Walker_Nav_Menu {
 						 * if there is a value in the attr_title property. If the attr_title
 						 * property is NOT null we apply it as the class name for the glyphicon.
 						 */
+
+
+
 						if ( ! empty( $item->attr_title ) )
 								$item_output .= '<a'. $attributes .'><span class="glyphicon ' . esc_attr( $item->attr_title ) . '"></span>&nbsp;';
 						else
@@ -147,6 +150,7 @@ class wp_bootstrap_navwalker extends Walker_Nav_Menu {
 						return;
 
 				$id_field = $this->db_fields['id'];
+
 
 				// Display this element.
 				if ( is_object( $args[0] ) )

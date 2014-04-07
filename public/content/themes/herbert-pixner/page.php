@@ -4,7 +4,7 @@
 <div id="content" class="clearfix row">
       <?php get_template_part('partials/template', 'sidebar') ?>
 
-  <div class="col-sm-8">
+  <div class="col-sm-10 paddL30">
 
 
 

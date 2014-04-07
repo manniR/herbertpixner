@@ -11,6 +11,7 @@ require_once('library/admin.php');
 require_once('library/menus.php');
 require_once('library/extras.php');
 require_once('library/helper.php');
+require_once('library/Mr_Bootstrap_Walker.php');
 require_once('library/wp_bootstrap_navwalker.php');
 
 
@@ -181,7 +182,7 @@ function remove_width_attribute( $html ) {
 add_filter( 'post_thumbnail_html', 'remove_width_attribute', 10 );
 add_filter( 'image_send_to_editor', 'remove_width_attribute', 10 )*/;
 
-add_filter('the_content', 'add_responsive_class');
+//add_filter('the_content', 'add_responsive_class');
 
 function add_responsive_class($content){
 
@@ -189,12 +190,114 @@ function add_responsive_class($content){
   $document = new DOMDocument();
   libxml_use_internal_errors(true);
   $document->loadHTML(utf8_decode($content));
+	$ps = $document->getElementsByTagName('p');
+	echo '<pre>';
+	var_dump($ps->item(1));
+	echo '</pre>';
 
-  $imgs = $document->getElementsByTagName('img');
+  /*$imgs = $document->getElementsByTagName('img');
   foreach ($imgs as $img) {
     $img->setAttribute('class','w100');
   }
+		$a = $p->getElementsByTagName('a')->item(0);
 
-  $html = $document->saveHTML();
-  return $html;
+		$pdf_symbol = $document->createElement( 'span', 'PDF' );
+		$pdf_symbol->setAttribute('class', 'pdf-symbol');
+		$p->insertBefore($pdf_symbol, $a);
+
+		echo '<pre>';
+		var_dump($p);
+		echo '</pre>';*/
+
+
+		foreach ($ps as $link) {
+
+//			$a->item[]->insertBefore($pdf_symbol, $link);
+
+			/*echo '<pre>';
+			var_dump($link->textContent);
+			echo '</pre>';*/
+
+    //$link->nodeValue = '<span class= filtered>FILTER</span>'.$link->textContent;
+
+  }
+
+ /* $html = $document->saveHTML();
+  return $html;*/
+}
+
+
+function manipulate_dom(){
+
+$dom = new DOMDocument;
+//$dom->loadHTMLFile("data.html");
+
+foreach($dom->getElementsByTagName('img') as $img){
+		$src = $img->getAttribute('src');
+
+		$filename = substr(strrchr($src , '/') ,1);
+		$filename = preg_replace('/^[.]*/', '', $filename);
+		$filename = explode('.', $filename);
+		$filename = $filename[0];
+
+		$classes = explode(' ', $img->getAttribute('class'));
+
+		if(!in_array('no-enlarge', $classes))
+		{
+				$fancyHref = $dom->createElement('a');
+				$span = $dom->createElement('span');
+				$span->setAttribute('class', 'magnifier');
+				$fancyHref->setAttribute('class', 'enlarge');
+				$fancyHref->setAttribute('rel', 'enlarge');
+				$fancyHref->setAttribute('href', $img->getAttribute('src'));
+				if($img->getAttribute('title') !== '')
+				{
+						$fancyHref->setAttribute('title', $img->getAttribute('title'));
+						$fancyHref->setAttribute('alt', $img->getAttribute('title'));
+				}
+				$clone = $fancyHref->cloneNode();
+
+				$img->parentNode->replaceChild($clone, $img);
+				$clone->appendChild($img);
+				$img->parentNode->insertBefore($span, $img);
+		}
+
+		$img->setAttribute('class', trim(str_replace('no-enlarge', '', $img->getAttribute('class'))));
+
+		if($img->getAttribute('class') === ''){
+				$img->removeAttribute('class');
+		}
+}
+
+echo "<pre>" . htmlentities($dom->saveHTML()) . "</pre>";
+
+
+/*With this (data.html) as source data:
+
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+        <img src="http://lorempixel.com/g/400/200/" alt="alts" title="tits">
+    </body>
+</html>
+And the result is this:
+
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <a class="enlarge" rel="enlarge" href="http://lorempixel.com/g/400/200/" title="tits" alt="tits">
+            <span class="magnifier">
+            </span>
+            <img src="http://lorempixel.com/g/400/200/" alt="alts" title="tits"></a>
+    </body>
+</html>*/
+
+//  So.. Isn't that what you wanted? :D
+
+
+
 }

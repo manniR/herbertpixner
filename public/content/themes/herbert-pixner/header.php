@@ -97,7 +97,7 @@
 
   <div class="header-feature row">
 
-      <div class="col-md-11 col-md-offset-1 col-sm-offset-0 col-sm-12">
+      <div class="col-sm-12">
   <div class="navbar navbar-default">
       <div  class="top-nav-toggle pull-right" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="ab-icon"></span>
@@ -107,7 +107,7 @@
 
       <div class="navbar-collapse collapse paddLR0">
 
-            <?php wp_bootstrap_main_nav();//test_nav(); // Adjust using Menus in Wordpress Admin ?>
+            <?php test_nav(); // wp_bootstrap_main_nav();Adjust using Menus in Wordpress Admin ?>
 
       </div>
       <!--/.navbar-collapse -->

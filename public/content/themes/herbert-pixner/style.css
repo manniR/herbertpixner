@@ -41,26 +41,19 @@
     font-style: normal;
 }
 
+p{font-size: 1.15em;}
 
 h1.logo{
     color: white !important;
-    /*background: orange;*/
     margin:0;
     font: 6.2em "HitTheRoadRegular";
     text-align: center;
-    /*display:block;*/
-    /*width:100%;*/
-    /*margin: -12% 0 0 0;*/
-    /*padding:0;*/
-    /*display: block;*/
-    /*position: absolute;*/
-    /*bottom:0px;*/
-    /*left:20%;*/
-    /*position:relative;*/
-    /*z-index:11111;*/
 }
-.site-header-title{margin-top:-12.2%;}
+.site-header-title{margin-top:-11.3%;}
 
+.post_content > h1:first-child,.post_content > h2:first-child, .post_content > h3:first-child,.post_content > h4:first-child{margin-top:0;padding-top: 0;}
+.post_content{margin-top: 20px;}
+h4 {line-height: 1.5em;}
 
 /*COLORS*/
 .gray {color: #808285}
@@ -70,15 +63,15 @@ h1.logo{
  MAIN ADJUSTMENTS
 */
 
-.container {max-width: 1000px}
+.container {max-width: 814px}
 
 
 /*hide subnav on smaller screens and show on collapsed menu*/
 @media screen and (max-width: 765px) {
 
     #sidebar1 {display:none;}
-    #menu-main-menu li:first-child >a{padding-left:15px;}
-    #menu-main-menu li:last-child > a{padding-right:15px;}
+    #menu-main-menu > li:first-child > a{padding-left:15px;}
+    #menu-main-menu > li:last-child > a{padding-right:15px;}
 }
 
 
@@ -90,14 +83,15 @@ h1.logo{
         display: table;
         table-layout: fixed;
     }
+    .caret{display:none;}
 
     .nav > li > a {
         position: relative;
         display: block;
-        padding: 10px 10px;
+        padding: 10px 12px;
     }
-    #menu-main-menu li:first-child >a{padding-left:0;}
-    #menu-main-menu li:last-child > a{padding-right:0;}
+    #menu-main-menu > li:first-child >a{padding-left:0;}
+    #menu-main-menu > li:last-child > a{padding-right:0;}
     .top-nav-toggle{display:none}
 }
 
@@ -105,7 +99,7 @@ h1.logo{
     .nav > li > a {
         position: relative;
         display: block;
-        padding: 10px 17px;
+        padding: 10px 20px;
     }
 }
 
@@ -130,8 +124,7 @@ h1.logo{
 /*dropdown*/
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{color:#f2f2f2; background-color:#010101;}
 .dropdown-menu>li>a{padding: 3px 20px;}
-.dropdown-menu{padding:0px 0;margin:0; left:22px;}
-
+.dropdown-menu{padding:0px 0;margin:0; left:0px;}
 
 
 /*
@@ -258,9 +251,7 @@ footer address{font-size:0.95em;}
 .panel  a{
     color:black;
 }
-.panel h4 {
-    padding:1em 0;
-}
+
 .panel-title span:first-child{
     padding-right:0.5em;
     /*padding-left:1em;*/
@@ -268,6 +259,15 @@ footer address{font-size:0.95em;}
 
 
 .listing > hr {margin:0;}
+
+/*TOURDATELISING*/
+td {vertical-align: top !important ; padding-top: 10px;}
+table {width: 100%;}
+h4.tour{font-size: 14px; font-weight: normal;}
+.tour .date{display:block; float:left;}
+.tour .title{display: block; margin: 0 40px 0 94px}
+.tour .icon{display:block; float:right;}
+
 
 
 /*panel open state*/
@@ -284,14 +284,15 @@ footer address{font-size:0.95em;}
     /*background:#efefef;*/
 }
 
+
 /*panel expandable content*/
 .panel-body{
     margin-left:0;
-    padding:0 0 0 15px;
+    padding:0 0 0 0px;
     background:#fff;
 }
 .dl-horizontal dd{
-    margin-left: 80px;
+    margin-left: 94px;
 }
 .dl-horizontal dt{
     float:left;
@@ -312,7 +313,7 @@ footer address{font-size:0.95em;}
 SIDEBAR
 */
 
-#sidebar1 .nav{margin-top: 0px}
+#sidebar1 .nav{margin-top: 10px}
 
 
 
@@ -378,8 +379,17 @@ border-radius: 3px;
 .paddLR0{padding-left: 0 !important;padding-right: 0 !important;}
 .padd0{padding: 0 !important;}
 
+.paddL30 {padding-left: 90px;}
+.paddR30{padding-left: 30px;}
+
+
+.alignright{float:right;}
+
+
 /*
  PRESSAREA
 */
 #main > div > div > div > a > img{width:auto;height:150px; padding-right:15px}
+.presse > div {border-left: 11px solid #f0f0f0; border-top:2px solid #f0f0f0;padding-left: 15px}
+.wp-caption{font-size: 0.8em}
 

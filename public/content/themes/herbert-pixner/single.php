@@ -5,7 +5,7 @@
 
   <?php get_template_part('partials/template', 'sidebar') ?>
     <!--END SIDEBAR-->
-    <div class="col-sm-8">
+    <div class="col-sm-10">
 
 
 
